@@ -8,7 +8,7 @@ function renderClientTestimonialsSwiper() {
     speed: 750, // Scroll speed (in milliseconds) controlling the continuous scroll pace
     // effect: "fade",
     autoplay: {
-      delay: 5000, // No delay between slide transitions for smooth continuous scroll
+      delay: 50000000, // No delay between slide transitions for smooth continuous scroll
       // disableOnInteraction: false, // Keep autoplay running even after user interaction
     },
     navigation: {
