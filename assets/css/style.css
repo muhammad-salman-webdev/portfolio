@@ -58,8 +58,6 @@
 
             .hero-title {
                 max-width: 1000px;
-
-                span {}
             }
 
             &>p {
@@ -479,7 +477,7 @@
         margin-top: 0;
 
         p,
-        h2 {
+        .about-me-h2 {
             color: white;
 
             span {
@@ -650,15 +648,11 @@
 
             .service-card-container {
                 .service-card-inner {
-                    /* display: flex; */
                     flex-direction: row;
                     align-items: center;
 
                     .service-card-img {
-
-                        /* border: 1px solid red; */
                         img {
-                            /* border: 1px solid red; */
                             width: 100%;
                             max-width: 325px;
                         }
@@ -691,3 +685,229 @@
         }
     }
 }
+
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* --------About Me CSS Start------ */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+.about-me-section {
+    padding: 100px 0;
+
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+        text-align: center;
+
+        .about-me-h1 {
+            font-size: 65px;
+            line-height: 75px;
+
+            span {
+                color: var(--gray);
+                font-family: "inter";
+            }
+        }
+
+        .about-me-text-fade {
+            max-width: 715px;
+            font-size: 27px;
+            line-height: 34px;
+            color: black;
+            text-align: center;
+            margin: 0 auto;
+
+            span {
+                font-size: 27px;
+                line-height: 32px;
+                color: var(--gray);
+            }
+        }
+
+        .about-me-image {
+            height: 436px;
+            object-fit: cover;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+/* ############################# */
+/* ############################# */
+/* ############################# */
+/* ############################# */
+/* ############################# */
+.intro-section {
+    padding: 100px 0;
+
+    .intro-container {
+        text-align: center;
+        flex-direction: column;
+
+        .logo-image {
+            max-width: 60px;
+            margin: 0 auto;
+
+            img {
+                width: 100%
+            }
+        }
+
+        .about-me-text-fade {
+            max-width: 900px;
+            margin: 32px auto 56px;
+            font-size: 27px;
+            line-height: 34px;
+            color: black;
+            text-align: center;
+
+            span {
+                font-size: 27px;
+                line-height: 32px;
+                color: var(--gray);
+            }
+        }
+
+        a {
+            margin: 0 auto;
+            padding: 12px 16px;
+            color: black;
+            align-items: center;
+            border: 1px solid var(--border-color);
+            min-width: max-content;
+            display: inline-block;
+            gap: 30px;
+            border-radius: 10px;
+
+            i {
+                margin-left: 32px;
+            }
+        }
+    }
+}
+
+/* ###############################  */
+/* ###############################  */
+/* ###############################  */
+/* ###############################  */
+/* ###############################  */
+/* ###############################  */
+.our-process-section {
+    padding: 100px 0;
+
+    .our-process-container {
+        text-align: center;
+
+        .about-me-h2 {
+            margin: 40px 0;
+            font-size: 50px;
+        }
+
+        .process-cards {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 2;
+
+            .process-card-image {
+                max-width: 350px;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    border-radius: 20px;
+                }
+            }
+
+            .process-card {
+                border: 1px solid #dfe0e4;
+                max-width: 573px;
+                padding: 24px 24px 56px;
+                border-radius: 20px;
+                background-color: white;
+
+                .process-card-heading {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .label-text {
+                        background: black;
+                        color: white;
+                        padding: 2px 8px;
+                        border-radius: 10px;
+                        font-size: 16px;
+                    }
+
+                    .label-code {
+                        color: var(--gray-color);
+                        font-size: 26px;
+                    }
+                }
+
+                h3 {
+                    text-align: start;
+                    margin: 30px 0 20px 0;
+                }
+
+                p {
+                    text-align: start;
+                    color: var(--gray-color);
+                    font-size: 24px;
+                    line-height: 32px;
+                    font-weight: 500;
+                }
+            }
+
+            &>:nth-child(2) {
+                background: #f2f3f5;
+                margin: -207px 123px 0 auto;
+            }
+
+            &>:nth-child(3) {
+                margin-top: -100px;
+            }
+
+            &>:nth-child(4) {
+                margin-right: 15%;
+                margin-top: -162px;
+                margin-left: auto;
+            }
+
+            &>:nth-child(5) {
+                margin-right: 10%;
+                margin-top: -50px;
+                z-index: 3;
+            }
+
+            &>:nth-child(6) {
+                margin-right: 20%;
+                margin-top: -160px;
+                margin-left: auto;
+            }
+        }
+    }
+}
+
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* --------About Me CSS End  ------ */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */

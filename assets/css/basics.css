@@ -12,7 +12,7 @@
     transition: background-color 0.05s linear;
     --scrollbar-thumb-color: white;
     --border-color: #dfe0e4;
-    --about-us-gray-color: #b4b5bb;
+    --gray-color: #b4b5bb;
 }
 
 *,
@@ -36,6 +36,13 @@ body {
     background-color: var(--black);
     color: white;
     overflow-x: hidden;
+}
+
+html:has(.theme---light) {
+    body {
+        background: white;
+        color: black;
+    }
 }
 
 body.no-scroll {
@@ -75,7 +82,7 @@ h1,
 h2 {
     span {
         font-family: "Playfair Display", serif;
-        font-style: italic;
+        /* font-style: italic; */
         font-size: inherit;
     }
 }

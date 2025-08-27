@@ -1,0 +1,189 @@
+body {
+    background: white;
+    /* color: black; */
+}
+
+h1 {
+    font-size: 47px;
+    line-height: 54px;
+    font-family: "inter" sans-serif;
+    color: var(--black);
+
+    span {
+        font-family: "inter", sans-serif;
+        font-size: 47px;
+        line-height: 54px;
+        color: var(--gray-color);
+    }
+}
+
+.service-hero-section {
+    margin: 100px 0;
+    color: black;
+
+    .service-hero-container {
+        margin-bottom: 50px;
+        display: flex;
+        gap: 40px;
+
+        h1 {
+            max-width: 684px;
+        }
+
+        .service-subtitle-container {
+            max-width: 425px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            padding-top: 8px;
+
+            .service-subtitle {
+                font-size: 14px;
+                line-height: 18px;
+                color: #686a74;
+
+                span {
+                    text-underline-offset: 4px;
+                    text-decoration: underline;
+                    text-decoration-thickness: 1px;
+                }
+            }
+        }
+    }
+}
+
+/* #####################  */
+/* #####################  */
+/* #####################  */
+/* #####################  */
+/* #####################  */
+@media (max-width:992px) {
+    h1 {
+        font-size: 56px;
+        line-height: 60px;
+
+        span {
+            font-size: 56px;
+            line-height: 60px;
+        }
+    }
+
+    .service-hero-section {
+        .service-hero-container {
+            flex-direction: column;
+            gap: 30px;
+
+            h1 {
+                max-width: 80%;
+            }
+
+            .service-subtitle-container {
+                gap: 50px;
+                max-width: 100%;
+
+                .service-subtitle {
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+
+                .c_btn {
+                    span {
+                        font-size: 20px;
+                        list-style: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* #####################  */
+/* #####################  */
+/* #####################  */
+/* #####################  */
+/* #####################  */
+@media (max-width:768px) {
+    h1 {
+        font-size: 42px;
+        line-height: 49px;
+
+        span {
+            font-size: 42px;
+            line-height: 49px;
+        }
+    }
+
+    .service-hero-section {
+        .service-hero-container {
+            .service-subtitle-container {
+                .service-subtitle {}
+
+                .c_btn {
+                    span {}
+                }
+            }
+        }
+    }
+}
+
+/* #####################  */
+/* #####################  */
+/* #####################  */
+/* #####################  */
+/* #####################  */
+@media (max-width:576px) {
+    h1 {
+        font-size: 30px;
+        line-height: 36px;
+
+        span {
+            font-size: 30px;
+            line-height: 36px;
+        }
+    }
+
+    .service-hero-section {
+        .service-hero-container {
+            .service-subtitle-container {
+                .service-subtitle {}
+
+                .c_btn {
+                    span {}
+                }
+            }
+        }
+    }
+}
+
+/* #####################  */
+/* #####################  */
+/* #####################  */
+/* #####################  */
+/* #####################  */
+@media (max-width:420px) {
+    h1 {
+        font-size: 22px;
+        line-height: 27px;
+
+        span {
+            font-size: 22px;
+            line-height: 27px;
+        }
+    }
+
+    .service-hero-section {
+        .service-hero-container {
+            h1 {
+                max-width: 100%;
+            }
+
+            .service-subtitle-container {
+                .service-subtitle {}
+
+                .c_btn {
+                    span {}
+                }
+            }
+        }
+    }
+}

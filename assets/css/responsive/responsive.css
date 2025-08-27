@@ -1,3 +1,9 @@
+/* ####################  */
+/* ####################  */
+/* Header Responsive Code  */
+/* ####################  */
+/* ####################  */
+/* ####################  */
 @media (max-width:1024px) {
     .header-section {
         .header-container {
@@ -597,52 +603,6 @@
                 &>p {
                     font-size: 16px;
                 }
-
-                .hero-social-proof {
-                    &:hover {
-                        .clients-images a {}
-
-                        .clients-images .tooltip {}
-                    }
-
-                    .clients-images {
-                        &:hover a {}
-
-                        &:has(a:nth-child(2):hover) .tooltip {}
-
-                        &:has(a:nth-child(3):hover) .tooltip {}
-
-                        &:has(a:nth-child(4):hover) .tooltip {}
-
-                        &:has(a:nth-child(5):hover) .tooltip {}
-
-                        &:has(a:nth-child(6):hover) .tooltip {}
-
-                        .tooltip {
-                            span {}
-
-                            &::before {}
-                        }
-
-                        &>a {
-                            &:not(:nth-child(2)) {}
-
-                            &:hover {}
-
-                            img {}
-                        }
-                    }
-
-                    .stars-text {
-                        .stars {
-                            i {}
-                        }
-
-                        .text {}
-                    }
-                }
-
-                .hero-cta-button {}
             }
         }
     }
@@ -729,3 +689,534 @@
         }
     }
 }
+
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -About Me Responsive CSS Start-- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+@media (max-width:1200px) {
+    .about-me-section {
+        & .about-me-container {
+            .about-me-h1 {
+                margin: 0 auto;
+                font-size: 55px;
+                line-height: 63px;
+            }
+        }
+    }
+
+    .our-process-section {
+        .our-process-container {
+            .process-cards {
+                .process-card-image {
+                    max-width: 350px;
+                }
+
+                .process-card {
+                    max-width: 565px;
+                    padding: 24px 24px 34px;
+
+                    .process-card-heading {
+                        .label-text {
+                            font-size: 13px;
+                        }
+
+                        .label-code {
+                            font-size: 22px;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 22px;
+                        margin: 20px 0 10px 0;
+                    }
+
+                    p {
+                        font-size: 22px;
+                        max-width: 475px;
+                    }
+                }
+
+                &>:nth-child(2) {
+                    max-width: 565px;
+                    margin: -180px 53px 0 auto;
+                }
+
+                &>:nth-child(3) {
+                    margin-top: -72px;
+                }
+
+                &>:nth-child(4) {
+                    max-width: 565px;
+                    margin-top: -172px;
+                }
+
+                &>:nth-child(5) {
+                    max-width: 565px;
+                    margin-right: 10%;
+                    margin-top: -31px;
+                }
+
+                &>:nth-child(6) {
+                    margin-right: 8%;
+                    margin-top: -197px;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+}
+
+/* #############################  */
+/* #############################  */
+@media (max-width:1284px) {
+    .our-process-section {
+        .our-process-container {
+            .process-cards {
+                &>:nth-child(2) {
+                    margin-right: 81px;
+                }
+            }
+        }
+    }
+}
+
+/* #############################  */
+/* #############################  */
+/* ############################## */
+@media (max-width:1235px) {
+    .our-process-section {
+        .our-process-container {
+            .process-cards {
+                &>:nth-child(2) {
+                    margin-right: 42px;
+                }
+            }
+        }
+    }
+}
+
+/* #############################  */
+/* #############################  */
+/* #############################  */
+/* #############################  */
+@media (max-width:1100px) {
+    .about-me-section {
+        & .about-me-container {
+            .about-me-h1 {
+                margin: 0 auto;
+                line-height: 63px;
+            }
+        }
+    }
+
+    .our-process-section {
+        .our-process-container {
+            .process-cards {
+                .process-card-image {
+                    max-width: 300px;
+                }
+
+                .process-card {
+                    max-width: 495px;
+                }
+
+                &>:nth-child(1) {
+                    padding-right: 30px;
+                }
+
+                &>:nth-child(2) {
+                    max-width: 495px;
+                    margin-right: 54px;
+                }
+            }
+        }
+    }
+}
+
+/* #############################  */
+/* #############################  */
+/* #############################  */
+@media (max-width:1055px) {
+    .our-process-section {
+        .our-process-container {
+            .process-cards {
+                &>:nth-child(2) {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}
+
+/* #############################  */
+/* #############################  */
+/* #############################  */
+/* #############################  */
+@media (max-width:1015px) {
+    .about-me-section {
+        padding: 60px 0;
+    }
+
+    .intro-section {
+        padding: 60px 0;
+    }
+
+    .our-process-section {
+        padding: 60px 0;
+
+        .our-process-container {
+            .process-cards {
+                gap: 20px;
+
+                .process-card-image {
+                    max-width: 100%;
+                }
+
+                .process-card {
+                    width: 100%;
+                    max-width: 100%;
+                    padding: 34px 34px 54px;
+
+                    .process-card-heading {
+                        .label-text {
+                            font-size: 20px;
+                            line-height: 26px;
+                        }
+
+                        .label-code {
+                            font-size: 32px;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 32px;
+                        line-height: 38px;
+                        margin: 36px 0 10px 0;
+                    }
+
+                    p {
+                        font-size: 32px;
+                        max-width: 100%;
+                        line-height: 38px;
+                    }
+                }
+
+                &>:nth-child(2) {
+                    margin: 0;
+                }
+
+                &>:nth-child(3) {
+                    margin: 0;
+                }
+
+                &>:nth-child(4) {
+                    margin: 0;
+                }
+
+                &>:nth-child(5) {
+                    margin: 0;
+                }
+
+                &>:nth-child(6) {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+/* #############################  */
+/* #############################  */
+/* #############################  */
+/* #############################  */
+/* #############################  */
+@media (max-width:678px) {
+    .about-me-section {
+        & .about-me-container {
+            .about-me-h1 {
+                font-size: 40px;
+                line-height: 53px;
+            }
+
+            & .about-me-text-fade {
+                font-size: 22px;
+                line-height: 28px;
+
+                span {
+                    font-size: 22px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+
+    .about-me-section {
+        padding: 40px 0;
+    }
+
+    .intro-section {
+        padding: 40px 0;
+
+        .intro-container {
+            .about-me-text-fade {
+                margin: 22px auto 36px;
+                font-size: 22px;
+                line-height: 28px;
+
+                span {
+                    font-size: 22px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+
+    .our-process-section {
+        padding: 40px 0;
+
+        .our-process-container {
+            .about-me-h2 {
+                margin: 24px 0;
+            }
+
+            .process-cards {
+                .process-card {
+                    padding: 24px 24px 34px;
+
+                    .process-card-heading {
+                        .label-text {
+                            font-size: 18px;
+                            line-height: 24px;
+                        }
+
+                        .label-code {
+                            font-size: 26px;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 26px;
+                        line-height: 32px;
+                        margin: 24px 0 6px 0;
+                    }
+
+                    p {
+                        font-size: 26px;
+                        max-width: 100%;
+                        line-height: 32px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* #############################  */
+/* #############################  */
+/* #############################  */
+/* #############################  */
+/* #############################  */
+@media (max-width:576px) {
+    .about-me-h1 {
+        font-size: 48px;
+        line-height: 58px;
+
+        span {
+            color: var(--gray);
+            font-family: "inter";
+        }
+    }
+
+    .about-me-h2 {
+        font-size: 36px;
+    }
+
+    .intro-section {
+        & .intro-container {
+            .about-me-text-fade {
+                font-size: 20px;
+                line-height: 26px;
+
+                span {
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+
+    .our-process-section {
+        .our-process-container {
+            .process-cards {
+                .process-card-image {
+                    img {
+                        border-radius: 10px;
+                    }
+                }
+
+                .process-card {
+                    padding: 24px 24px 34px;
+                    border-radius: 10px;
+
+                    .process-card-heading {
+                        .label-text {
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+
+                        .label-code {
+                            font-size: 20px;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 20px;
+                        line-height: 24px;
+                        margin: 24px 0 6px 0;
+                    }
+
+                    p {
+                        font-size: 20px;
+                        max-width: 100%;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* #############################  */
+/* #############################  */
+/* #############################  */
+/* #############################  */
+/* #############################  */
+@media (max-width:420px) {
+    .about-me-h2 {
+        font-size: 26px;
+        margin: 0 0 0 24px;
+    }
+
+    .about-me-section {
+        .about-me-container {
+            .about-me-h1 {
+                font-size: 30px;
+                line-height: 37px;
+
+                span {
+                    color: var(--gray);
+                    font-family: "inter";
+                }
+            }
+
+            .about-me-text-fade {
+                font-size: 16px;
+                line-height: 20px;
+
+                span {
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+    .our-process-section {
+        .our-process-container {
+            .about-me-h2 {
+                margin: 0 0 24px 0;
+                font-size: 26px;
+            }
+
+            .process-cards {
+                .process-card {
+                    padding: 16px 16px 26px;
+
+                    .process-card-heading {
+                        .label-text {
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+
+                        .label-code {
+                            font-size: 16px;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin: 16px 0 6px 0;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        max-width: 100%;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* --About Me Responsive CSS  End-- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* -Service Page Responsive CSS Start-- */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* --Service Page Responsive CSS  End-- */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
