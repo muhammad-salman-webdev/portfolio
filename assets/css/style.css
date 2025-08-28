@@ -1775,3 +1775,160 @@ h1 {
 /* --------------------------------- */
 /* --------------------------------- */
 /* --------------------------------- */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* ##############################  */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --Start::  Blog Page Style CSS--- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+h1 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.blog-main-image {
+    max-width: 1728px;
+    height: 450px;
+    width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    padding: 16px;
+    border-radius: 20px;
+
+    img {
+        max-width: 100%;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.question-blog-container {
+    color: black;
+    max-width: 680px;
+    margin: 0 auto;
+
+    .blog-info {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        position: relative;
+
+        i {
+            background: white;
+            color: black;
+            width: 60px;
+            aspect-ratio: 1/1;
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            font-size: 26px;
+            font-weight: 500;
+            transform: rotate(-135deg);
+            cursor: pointer;
+            position: absolute;
+            top: -84px;
+
+            &:hover {
+                background: #984df6;
+            }
+        }
+
+        a {
+            background: rgb(44, 43, 43);
+            font-size: 14px;
+            color: var(--white);
+            border-radius: 9px;
+            line-height: 22px;
+            padding: 2px 8px;
+            transform: all 3s ease;
+
+            &:hover {
+                background: #984df6;
+            }
+        }
+
+        span {
+            font-size: 9px;
+            color: var(--gray);
+        }
+    }
+
+    h1 {
+        padding: 30px 0 40px;
+    }
+
+    h2 {
+        margin: 110px 0 24px;
+    }
+
+    img {
+        margin: 46px 0;
+        margin-left: -10%;
+        width: 120%;
+        max-height: 430px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    p,
+    h3,
+    a strong {
+        margin-bottom: 16px;
+        line-height: 24px;
+        text-align: justify;
+        color: black;
+    }
+}
+
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* -------End:: Blog Style CSS------ */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
