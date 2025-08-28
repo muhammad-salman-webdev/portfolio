@@ -224,6 +224,7 @@
         }
 
         .mockup-content {
+            color: black4;
             display: flex;
             justify-content: space-between;
             flex-direction: column;
@@ -263,6 +264,7 @@
                 margin: 20px 0;
 
                 div {
+                    color: black;
                     display: flex;
                     align-items: center;
                     gap: 14px;
@@ -289,7 +291,7 @@
                     border-radius: 12px;
 
                     p {
-                        color: var(--white);
+                        color: black;
                         font-weight: 500;
                     }
 
@@ -320,7 +322,8 @@
 
     .result-container {
         height: 516px;
-        background: var(--white);
+        background: black;
+        color: var(--white);
         border-radius: 12px;
         display: flex;
         justify-content: space-between;
@@ -339,7 +342,7 @@
             p {
                 max-width: 735px;
                 margin-bottom: 30px;
-                color: var(--black);
+                color: white;
             }
         }
 
@@ -532,6 +535,7 @@
             }
 
             .mockup-content {
+                color: black;
                 min-width: 100%;
                 gap: 40px;
                 height: max-content;

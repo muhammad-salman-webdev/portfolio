@@ -178,7 +178,7 @@ h3 {
 
 /* Fade Text Small  */
 .text-fade-sm {
-    color: var(--white);
+    color: black;
     font-size: 16px;
     font-weight: 500;
     line-height: 21px;
@@ -191,7 +191,7 @@ h3 {
 
 /* Fade Text medium  */
 .text-fade-md {
-    color: var(--white);
+    color: black;
     font-size: 28px;
     font-weight: 500;
     line-height: 36px;
@@ -204,6 +204,7 @@ h3 {
 
 /* Fade Text large  */
 .text-fade-lg {
+    color: black;
     font-size: 38px;
     font-weight: 500;
     line-height: 47px;

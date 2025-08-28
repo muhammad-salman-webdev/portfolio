@@ -467,9 +467,6 @@
 }
 
 .services-section {
-    /* background-color: #f2f3f5; */
-    /* height: 1000px; */
-    /* background-color: #f2f3f5; */
     padding: 80px 0;
     margin-top: 100px;
 
@@ -911,3 +908,566 @@
 /* -------------------------------- */
 /* -------------------------------- */
 /* -------------------------------- */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ##################################  */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* -Service Page Responsive CSS Start-- */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+body {
+    background: white;
+    /* color: black; */
+}
+
+h1 {
+    font-size: 47px;
+    line-height: 54px;
+    font-family: "inter" sans-serif;
+    color: var(--black);
+
+    span {
+        font-family: "inter", sans-serif;
+        font-size: 47px;
+        line-height: 54px;
+        color: var(--gray-color);
+    }
+}
+
+.service-hero-section {
+    margin: 100px 0;
+    color: black;
+
+    .service-hero-container {
+        margin-bottom: 50px;
+        display: flex;
+        gap: 40px;
+
+        h1 {
+            max-width: 684px;
+        }
+
+        .service-subtitle-container {
+            max-width: 425px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            padding-top: 8px;
+
+            .service-subtitle {
+                font-size: 14px;
+                line-height: 18px;
+                color: #686a74;
+
+                span {
+                    text-underline-offset: 4px;
+                    text-decoration: underline;
+                    text-decoration-thickness: 1px;
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+}
+
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* --Service Page Responsive CSS  End-- */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ################################  */
+/* ################################  */
+/* ################################  */
+/* ################################  */
+/* ################################  */
+/* ################################  */
+/* ################################  */
+/* ################################  */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* -Project Page Responsive CSS Start-- */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+.project-intro-section {
+    margin-top: 40px;
+
+    .project-intro-container {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+
+        .info-container {
+            display: flex;
+            justify-content: space-between;
+            border-radius: 12px;
+
+            .project-info {
+                .tags-container {
+                    margin-top: 10px;
+                    display: flex;
+                    gap: 6px;
+
+                    .tag {
+                        background-color: #666666;
+                        padding: 2px 8px;
+                        border-radius: 25px;
+                        font-size: 12px;
+                        line-height: 19px;
+                        letter-spacing: .5px;
+                    }
+                }
+            }
+
+            .intro-desc {
+                color: black;
+                align-self: end;
+                max-width: 440px;
+                margin-right: 100px;
+
+                &>a {
+                    margin-top: 14px;
+
+                    &>span {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.overview-container {
+    display: flex;
+    margin-top: 30px;
+    padding: 56px;
+    border: 1px solid gray;
+    justify-content: space-between;
+    border-radius: 20px;
+    align-items: center;
+    gap: 30px;
+
+    .overview-list {
+        display: flex;
+        gap: 50px;
+
+        .overview-item {
+            :nth-child(1) {
+                font-size: 50px;
+                font-weight: 500;
+                color: black;
+                line-height: 50px;
+            }
+
+            :nth-child(2) {
+                font-size: 12px;
+                font-weight: 400;
+                color: var(--gray);
+            }
+        }
+    }
+}
+
+/* Over View Video  */
+.overview-video {
+    width: 100%;
+    height: 100%;
+
+    video {
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
+}
+
+/* ------------------------------------ */
+/*    Project Overview Section Ends     */
+/* ----------------------------------- */
+/* ###################################### */
+/* ###################################### */
+/* ###################################### */
+/* ###################################### */
+/* --------------------------------- */
+/* Project Challenge Section Starts  */
+/* --------------------------------- */
+.project-challenge-section {
+    margin-top: 100px;
+
+    .project-challenge-container {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+
+        .challenge-container {
+            border: 1px solid gray;
+            border-radius: var(--border-radius);
+            padding: 56px;
+
+            .chal-content {
+                margin: 18px 0 54px;
+                max-width: 790px;
+            }
+        }
+    }
+
+    .chal-Tags-wrapper {
+        display: flex;
+        gap: 30px;
+
+        .tags-box {
+            &>p {
+                color: var(--gray);
+            }
+
+            .tags {
+                margin-top: 4px;
+                display: flex;
+                gap: 6px;
+
+                * {
+                    color: black;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+
+    .project-layout-image {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* ------------------------- */
+/* END::Project Layout Image */
+/* ------------------------ */
+/* ############################# */
+/* ############################# */
+/* ############################# */
+/* ############################# */
+.project-exper-video {
+    width: 100%;
+    position: relative;
+
+    .exper-heading {
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        padding: 56px 0 122px;
+        height: 100%;
+
+        &>h2 {
+            color: black;
+        }
+
+        a {
+            display: flex;
+            justify-content: space-between;
+            gap: 34px;
+            align-items: center;
+            padding: 10px 18px;
+
+            i {
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    video {
+        width: 100%;
+        border-radius: 22px;
+    }
+}
+
+/* ############################### */
+/* Project Development Container  */
+/* ############################### */
+.project-ourwork-section {
+    margin: 100px 0;
+
+    .project-ourwork-container {
+        .ourwork-title {
+            margin: 0 auto;
+        }
+
+        .work-content {
+            text-align: center;
+            margin: 24px auto 46px;
+            max-width: 782px;
+        }
+    }
+
+    .mockups-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mockup-container {
+        display: flex;
+        gap: 20px;
+
+        &:nth-child(2),
+        &:nth-child(4) {
+            flex-direction: row-reverse;
+        }
+
+        .mockup-content {
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            border: 1px solid #dfe0e4;
+            max-width: 35%;
+            border-radius: 12px;
+            padding: 20px;
+            height: 360px;
+
+            h3 {
+                font-size: 22px;
+            }
+        }
+
+        .mockup-image {
+            width: 100%;
+            display: flex;
+        }
+    }
+}
+
+/* ######################## */
+/* ######################## */
+/* ######################## */
+/* ######################## */
+/* ######################## */
+.project-plan-section {
+    margin: 100px 0;
+
+    .project-plan-container {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+
+        .plan-main-container {
+            .plan-title {
+                margin: 20px 0;
+
+                div {
+                    color: black;
+                    display: flex;
+                    align-items: center;
+                    gap: 14px;
+
+                    i {
+                        font-size: 32px;
+                        color: var(--gray);
+                    }
+                }
+            }
+
+            .plan-containers {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 16px;
+
+                .plan-container {
+                    border: 2px solid var(--gray);
+                    padding: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    gap: 30px;
+                    border-radius: 12px;
+
+                    p {
+                        color: black;
+                        font-weight: 500;
+                    }
+
+                    span {
+                        color: var(--gray);
+                    }
+                }
+            }
+        }
+    }
+
+    .shopify-image {
+        width: 100%;
+        height: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+/* #############################3  */
+/* #############################3  */
+/* #############################3  */
+/* #############################3  */
+.result-section {
+    margin: 100px 0;
+
+    .result-container {
+        height: 516px;
+        background: black;
+        color: var(--white);
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-between;
+
+        .result-content {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &>.result-title {
+                background: var(--black);
+                color: var(--white);
+            }
+
+            p {
+                max-width: 735px;
+                margin-bottom: 30px;
+                color: white;
+            }
+        }
+
+        /* Result Image  */
+        .result-image {
+            width: 400px;
+            height: 100px;
+        }
+    }
+}
+
+/* ##########################  */
+/* ##########################  */
+/* ##########################  */
+.testimonial-section {
+    margin: 100px 0;
+
+    .testimonial-container {
+        text-align: center;
+
+        &>h2 {
+            margin: 0 auto;
+        }
+
+        &>p {
+            text-align: center;
+            margin: 14px auto 34px;
+            max-width: 770px;
+        }
+    }
+}
+
+.testimonial-profile {
+    margin: 0 auto;
+    display: flex;
+    gap: 14px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    .profile-image {
+        max-width: 58px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .profile-title {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+
+        h3 {
+            color: black;
+            font-size: 32px;
+            line-height: 36px;
+        }
+
+        p {
+            color: var(--gray);
+        }
+    }
+}
+
+/* ############################# */
+/* ############################# */
+/* ############################# */
+/* ############################# */
+/* ############################# */
+/* ############################# */
+/* ############################# */
+/* ############################# */
+/* ############################# */
+/* ############################# */
+/* ############################# */
+@media (max-width:1272px) {
+    .result-section {
+        .result-container {
+            .result-image {
+                display: none;
+            }
+        }
+    }
+}
+
+/* ############################# */
+/* ############################# */
+/* ############################# */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* --Project Page Responsive CSS  End-- */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
