@@ -1,5 +1,5 @@
 :root {
-    --black: #000000;
+    --black: #161719;
     --light-gray: #b9b0b0;
     --white: #fff;
     --contrast-1: #5865f2;
@@ -124,7 +124,7 @@ h3 {
 
 .project-process-label {
     text-decoration: none;
-    color: black;
+    color: var(--black);
     background-color: white;
     padding: 2px 8px;
     display: flex;
@@ -136,12 +136,6 @@ h3 {
     width: fit-content;
     border-radius: 9px;
 
-    /* 
-    a {
-        color: black;
-        font-size: 14px;
-        font-weight: 600;
-    } */
     &._dark {
         background: var(--black);
         color: var(--white);
@@ -149,7 +143,7 @@ h3 {
 
     &._link {
         span {
-            color: black;
+            color: var(--black);
             font-size: 14px;
             font-weight: 600;
         }
@@ -174,6 +168,7 @@ h3 {
     font-size: 60px;
     font-weight: 500;
     line-height: 62px;
+    color: var(--black);
 }
 
 /* Fade Text Small  */
@@ -191,7 +186,7 @@ h3 {
 
 /* Fade Text medium  */
 .text-fade-md {
-    color: black;
+    color: var(--black);
     font-size: 28px;
     font-weight: 500;
     line-height: 36px;
@@ -204,7 +199,7 @@ h3 {
 
 /* Fade Text large  */
 .text-fade-lg {
-    color: black;
+    color: var(--black);
     font-size: 38px;
     font-weight: 500;
     line-height: 47px;
@@ -498,7 +493,7 @@ h3 {
 
         &._link {
             span {
-                color: black;
+                color: var(--black);
                 font-size: 11px;
                 font-weight: 600;
             }

@@ -124,7 +124,7 @@
                         will-change: transform;
 
                         span {
-                            color: black;
+                            color: var(--black);
                             border-radius: 5px;
                             background-color: white;
                             padding: 6px 8px;
@@ -333,7 +333,7 @@
                 padding: 10px 20px;
                 background-color: white;
                 color: rgb(0, 0, 0);
-                background-color: black;
+                background-color: var(--black);
                 color: white;
                 box-shadow: 1px 1px 10px white;
                 font-size: 14px;
@@ -379,7 +379,7 @@
                     background-color: white;
                     border-radius: 50px;
                     font-size: 12px;
-                    color: black;
+                    color: var(--black);
                     will-change: transform;
                     /*  */
                     padding: 2px 10px;
@@ -717,7 +717,7 @@
             max-width: 715px;
             font-size: 27px;
             line-height: 34px;
-            color: black;
+            color: var(--black);
             text-align: center;
             margin: 0 auto;
 
@@ -767,7 +767,7 @@
             margin: 32px auto 56px;
             font-size: 27px;
             line-height: 34px;
-            color: black;
+            color: var(--black);
             text-align: center;
 
             span {
@@ -780,7 +780,7 @@
         a {
             margin: 0 auto;
             padding: 12px 16px;
-            color: black;
+            color: var(--black);
             align-items: center;
             border: 1px solid var(--border-color);
             min-width: max-content;
@@ -874,12 +874,12 @@
             }
 
             &>:nth-child(3) {
-                margin-top: -100px;
+                margin-top: -78px;
             }
 
             &>:nth-child(4) {
                 margin-right: 15%;
-                margin-top: -162px;
+                margin-top: -184px;
                 margin-left: auto;
             }
 
@@ -890,8 +890,8 @@
             }
 
             &>:nth-child(6) {
-                margin-right: 20%;
-                margin-top: -160px;
+                margin-right: 15%;
+                margin-top: -208px;
                 margin-left: auto;
             }
         }
@@ -931,14 +931,14 @@
 /* ------------------------------------ */
 /* ------------------------------------ */
 /* ------------------------------------ */
-/* -Service Page Responsive CSS Start-- */
+/* -Service Page CSS Start------------- */
 /* ------------------------------------ */
 /* ------------------------------------ */
 /* ------------------------------------ */
 /* ------------------------------------ */
 body {
     background: white;
-    /* color: black; */
+    /* color: var(--black); */
 }
 
 h1 {
@@ -957,7 +957,7 @@ h1 {
 
 .service-hero-section {
     margin: 100px 0;
-    color: black;
+    color: var(--black);
 
     .service-hero-container {
         margin-bottom: 50px;
@@ -987,6 +987,12 @@ h1 {
                     font-size: 14px;
                     line-height: 18px;
                 }
+
+                .c_btn {
+                    span {
+                        color: var(--white) !important;
+                    }
+                }
             }
         }
     }
@@ -997,7 +1003,7 @@ h1 {
 /* ------------------------------------ */
 /* ------------------------------------ */
 /* ------------------------------------ */
-/* --Service Page Responsive CSS  End-- */
+/* --Service Page CSS  End------------- */
 /* ------------------------------------ */
 /* ------------------------------------ */
 /* ------------------------------------ */
@@ -1041,7 +1047,7 @@ h1 {
                     gap: 6px;
 
                     .tag {
-                        background-color: #666666;
+                        background-color: #F2F3F5;
                         padding: 2px 8px;
                         border-radius: 25px;
                         font-size: 12px;
@@ -1052,7 +1058,7 @@ h1 {
             }
 
             .intro-desc {
-                color: black;
+                color: var(--black);
                 align-self: end;
                 max-width: 440px;
                 margin-right: 100px;
@@ -1087,7 +1093,7 @@ h1 {
             :nth-child(1) {
                 font-size: 50px;
                 font-weight: 500;
-                color: black;
+                color: var(--black);
                 line-height: 50px;
             }
 
@@ -1157,7 +1163,7 @@ h1 {
                 gap: 6px;
 
                 * {
-                    color: black;
+                    color: var(--black);
                     font-size: 16px;
                     font-weight: 500;
                     line-height: 21px;
@@ -1196,7 +1202,7 @@ h1 {
         height: 100%;
 
         &>h2 {
-            color: black;
+            color: var(--black);
         }
 
         a {
@@ -1253,7 +1259,7 @@ h1 {
         }
 
         .mockup-content {
-            color: black;
+            color: var(--black);
             display: flex;
             justify-content: space-between;
             flex-direction: column;
@@ -1293,7 +1299,7 @@ h1 {
                 margin: 20px 0;
 
                 div {
-                    color: black;
+                    color: var(--black);
                     display: flex;
                     align-items: center;
                     gap: 14px;
@@ -1320,7 +1326,7 @@ h1 {
                     border-radius: 12px;
 
                     p {
-                        color: black;
+                        color: var(--black);
                         font-weight: 500;
                     }
 
@@ -1426,7 +1432,7 @@ h1 {
         text-align: start;
 
         h3 {
-            color: black;
+            color: var(--black);
             font-size: 32px;
             line-height: 36px;
         }
@@ -1544,6 +1550,13 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
 }
 
+span,
+a,
+p,
+div {
+    color: var(--black);
+}
+
 /* Grid No 1 */
 .info-heading {
     display: flex;
@@ -1582,6 +1595,7 @@ h1 {
 
         .feature-item {
             span {
+                color: var(--black);
                 font-size: 15px;
                 line-height: 18px;
             }
@@ -1808,12 +1822,6 @@ h2 {
     line-height: 42px;
 }
 
-h3 {
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 23px;
-}
-
 h4 {
     font-size: 18px;
     font-weight: 500;
@@ -1842,7 +1850,7 @@ p {
 }
 
 .question-blog-container {
-    color: black;
+    color: var(--black);
     max-width: 680px;
     margin: 0 auto;
 
@@ -1855,7 +1863,7 @@ p {
 
         i {
             background: white;
-            color: black;
+            color: var(--black);
             width: 60px;
             aspect-ratio: 1/1;
             display: grid;
@@ -1916,7 +1924,7 @@ p {
         margin-bottom: 16px;
         line-height: 24px;
         text-align: justify;
-        color: black;
+        color: var(--black);
     }
 }
 
