@@ -700,7 +700,6 @@
 .testimonial-card {
     background: white;
     display: flex;
-    /* border: 1px solid red; */
     border-radius: 16px;
     padding: 20px;
     padding-right: 0;
@@ -784,8 +783,6 @@
 
     .testimonial-swiper-container {
         margin-top: 75px;
-
-        .testimonial-container-wrapper {}
 
         .client-testimonial-control-buttons {
             position: relative;
@@ -975,7 +972,7 @@
             line-height: 75px;
 
             span {
-                color: var(--gray);
+                color: var(--gray-color);
                 font-family: "inter";
             }
         }
@@ -991,7 +988,7 @@
             span {
                 font-size: 27px;
                 line-height: 32px;
-                color: var(--gray);
+                color: var(--gray-color);
             }
         }
 
@@ -1040,7 +1037,7 @@
             span {
                 font-size: 27px;
                 line-height: 32px;
-                color: var(--gray);
+                color: var(--gray-color);
             }
         }
 
@@ -1203,23 +1200,6 @@
 /* ------------------------------------ */
 /* ------------------------------------ */
 /* ------------------------------------ */
-/* body {
-    background: white; 
-}
-
-h1 {
-    font-size: 47px;
-    line-height: 54px;
-    font-family: "inter" sans-serif;
-    color: var(--black);
-
-    span {
-        font-family: "inter", sans-serif;
-        font-size: 47px;
-        line-height: 54px;
-        color: var(--gray-color);
-    }
-} */
 .service-hero-section {
     margin: 100px 0;
     color: var(--black);
@@ -1230,11 +1210,18 @@ h1 {
         gap: 40px;
 
         h1 {
+            font-size: 50px;
+            line-height: 58px;
             max-width: 684px;
+            color: var(--black);
+
+            span {
+                color: var(--gray-color);
+            }
         }
 
         .service-subtitle-container {
-            max-width: 425px;
+            max-width: 464px;
             display: flex;
             flex-direction: column;
             gap: 32px;
@@ -1293,7 +1280,8 @@ h1 {
 /* ------------------------------- */
 /* ------------------------------- */
 .project-intro-section {
-    margin-top: 40px;
+    padding-top: 40px;
+    background-color: white;
 
     .project-intro-container {
         display: flex;
@@ -1315,6 +1303,7 @@ h1 {
                         background-color: #F2F3F5;
                         padding: 2px 8px;
                         border-radius: 25px;
+                        color: var(--black);
                         font-size: 12px;
                         line-height: 19px;
                         letter-spacing: .5px;
@@ -1338,48 +1327,48 @@ h1 {
             }
         }
     }
-}
 
-.overview-container {
-    display: flex;
-    margin-top: 30px;
-    padding: 56px;
-    border: 1px solid gray;
-    justify-content: space-between;
-    border-radius: 20px;
-    align-items: center;
-    gap: 30px;
-
-    .overview-list {
+    .overview-container {
         display: flex;
-        gap: 50px;
+        margin-top: 30px;
+        padding: 56px;
+        border: 1px solid gray;
+        justify-content: space-between;
+        border-radius: 20px;
+        align-items: center;
+        gap: 30px;
 
-        .overview-item {
-            :nth-child(1) {
-                font-size: 50px;
-                font-weight: 500;
-                color: var(--black);
-                line-height: 50px;
-            }
+        .overview-list {
+            display: flex;
+            gap: 50px;
 
-            :nth-child(2) {
-                font-size: 12px;
-                font-weight: 400;
-                color: var(--gray);
+            .overview-item {
+                :nth-child(1) {
+                    font-size: 50px;
+                    font-weight: 500;
+                    color: var(--black);
+                    line-height: 50px;
+                }
+
+                :nth-child(2) {
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: var(--gray-color);
+                }
             }
         }
     }
-}
 
-/* Over View Video  */
-.overview-video {
-    width: 100%;
-    height: 100%;
-
-    video {
+    /* Over View Video  */
+    .overview-video {
         width: 100%;
         height: 100%;
-        border-radius: 12px;
+
+        video {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+        }
     }
 }
 
@@ -1394,6 +1383,7 @@ h1 {
 /* Project Challenge Section Starts  */
 /* --------------------------------- */
 .project-challenge-section {
+    background-color: white;
     margin-top: 100px;
 
     .project-challenge-container {
@@ -1419,7 +1409,7 @@ h1 {
 
         .tags-box {
             &>p {
-                color: var(--gray);
+                color: var(--gray-color);
             }
 
             .tags {
@@ -1571,7 +1561,7 @@ h1 {
 
                     i {
                         font-size: 32px;
-                        color: var(--gray);
+                        color: var(--gray-color);
                     }
                 }
             }
@@ -1596,7 +1586,7 @@ h1 {
                     }
 
                     span {
-                        color: var(--gray);
+                        color: var(--gray-color);
                     }
                 }
             }
@@ -1703,7 +1693,7 @@ h1 {
         }
 
         p {
-            color: var(--gray);
+            color: var(--gray-color);
         }
     }
 }
@@ -1819,7 +1809,7 @@ div {
 
     &>p {
         max-width: 300px;
-        color: gray;
+        color: var(--gray-color);
     }
 }
 
@@ -1860,7 +1850,7 @@ div {
             }
 
             i {
-                color: var(--gray);
+                color: var(--gray-color);
             }
         }
     }
@@ -1885,7 +1875,7 @@ div {
             gap: 10px;
 
             & :nth-child(1) {
-                color: var(--gray);
+                color: var(--gray-color);
             }
         }
     }
@@ -1913,7 +1903,7 @@ div {
         margin-top: 16px;
 
         &>a {
-            color: gray;
+            color: var(--gray-color);
         }
     }
 }
@@ -1960,7 +1950,7 @@ div {
                 max-width: 530px;
                 border: none;
                 padding: 12px 16px;
-                color: gray;
+                color: var(--gray-color);
                 min-width: 100%;
                 max-width: 100%;
                 resize: none;
@@ -1979,11 +1969,11 @@ div {
 
         p {
             margin-top: 10px;
-            color: var(--gray);
+            color: var(--gray-color);
             font-size: 14px;
 
             a {
-                color: var(--gray);
+                color: var(--gray-color);
                 font-size: 14px;
                 text-decoration: underline;
             }
@@ -2020,7 +2010,7 @@ div {
 
                 span {
                     font-size: 32px;
-                    color: var(--gray);
+                    color: var(--gray-color);
                 }
             }
         }

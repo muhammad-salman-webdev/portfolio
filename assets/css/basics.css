@@ -33,8 +33,11 @@
 }
 
 body {
-    background-color: var(--black);
-    color: white;
+    /* background-color: var(--black);
+
+    color: white; */
+    background-color: white;
+    color: var(--black);
     overflow-x: hidden;
 }
 
@@ -81,9 +84,10 @@ h1 {
 h1,
 h2 {
     span {
-        font-family: "Playfair Display", serif;
+        /* font-family: "Playfair Display", serif; */
         /* font-style: italic; */
         font-size: inherit;
+        font-family: "inter", serif;
     }
 }
 
