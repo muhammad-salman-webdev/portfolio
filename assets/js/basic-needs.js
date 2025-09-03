@@ -8,7 +8,7 @@ window.onload = () => {
 // Import custom web components and modules for enhanced UI and animations
 
 // GSAP animation module for the home page welcome section
-// import "./gsap-animations/home-welcome-gsap.js";
+import "./gsap-animations/home-welcome-gsap.js";
 
 // Header Interative Animations
 import "./components/header-menu.js";
