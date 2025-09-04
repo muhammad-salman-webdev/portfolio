@@ -183,20 +183,20 @@ h3 {
     line-height: 21px;
 
     span {
-        color: var(--gray);
+        color: var(--gray-color);
         font-size: 16px;
     }
 }
 
 /* Fade Text medium  */
 .text-fade-md {
-    color: var(--black);
     font-size: 28px;
     font-weight: 500;
     line-height: 36px;
+    color: var(--black);
 
     span {
-        color: var(--gray);
+        color: var(--gray-color);
         font-size: 28px;
     }
 }
