@@ -968,26 +968,32 @@
         text-align: center;
 
         .about-me-h1 {
-            font-size: 65px;
-            line-height: 75px;
+            font-size: 58px;
+            line-height: 65px;
+            color: var(--black);
+            font-weight: 500;
 
             span {
                 color: var(--gray-color);
                 font-family: "inter";
+                font-size: 58px;
+                line-height: 65px;
             }
         }
 
         .about-me-text-fade {
             max-width: 715px;
-            font-size: 27px;
-            line-height: 34px;
             color: var(--black);
             text-align: center;
             margin: 0 auto;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 28px;
 
             span {
-                font-size: 27px;
-                line-height: 32px;
+                font-size: 25px;
+                font-weight: 500;
+                line-height: 28px;
                 color: var(--gray-color);
             }
         }
@@ -1029,14 +1035,16 @@
         .about-me-text-fade {
             max-width: 900px;
             margin: 32px auto 56px;
-            font-size: 27px;
-            line-height: 34px;
+            font-size: 25px;
+            line-height: 28px;
+            font-weight: 500;
             color: var(--black);
             text-align: center;
 
             span {
-                font-size: 27px;
-                line-height: 32px;
+                font-size: 25px;
+                line-height: 28px;
+                font-weight: 500;
                 color: var(--gray-color);
             }
         }
@@ -1074,6 +1082,7 @@
         .about-me-h2 {
             margin: 40px 0;
             font-size: 50px;
+            color: #333333;
         }
 
         .process-cards {
@@ -1114,7 +1123,9 @@
 
                     .label-code {
                         color: var(--gray-color);
-                        font-size: 26px;
+                        font-size: 25px;
+                        line-height: 28px;
+                        font-weight: 500;
                     }
                 }
 
@@ -1127,7 +1138,7 @@
                     text-align: start;
                     color: var(--gray-color);
                     font-size: 24px;
-                    line-height: 32px;
+                    line-height: 28px;
                     font-weight: 500;
                 }
             }
@@ -1642,6 +1653,11 @@
                 max-width: 735px;
                 margin-bottom: 30px;
                 color: white;
+
+                span {
+                    color: #686a74;
+                    ;
+                }
             }
         }
 
@@ -1694,7 +1710,7 @@
             flex-direction: column;
             text-align: start;
 
-            h3 {
+            .profile-title-h3 {
                 color: var(--black);
                 font-size: 32px;
                 line-height: 36px;
@@ -1835,7 +1851,7 @@
                 /* Grid No 3  */
                 .contact-box-container {
                     padding: 32px 40px;
-                    border: 1px solid var(--gray);
+                    border: 1px solid var(--border-color);
                     border-radius: 16px;
                     display: flex;
                     flex-direction: column;
@@ -1972,13 +1988,13 @@
         border: 1px solid var(--gray);
         border-radius: var(--border-radius);
         padding: 56px;
-        background: var(--white);
+        background: var(--black);
 
         .booking-header {
             .text-fade-header {
                 font-size: 32px;
                 line-height: 38px;
-                color: var(--black);
+                color: var(--white);
                 padding: 0 40px 56px;
                 text-align: center;
                 margin: 0 auto;
@@ -1986,6 +2002,7 @@
                 span {
                     font-size: 32px;
                     color: var(--gray-color);
+                    color: #686a74;
                 }
             }
         }
@@ -2055,8 +2072,8 @@
         position: relative;
 
         i {
-            background: white;
-            color: var(--black);
+            background: var(--black);
+            color: var(--white);
             width: 60px;
             aspect-ratio: 1/1;
             display: grid;
@@ -2068,6 +2085,7 @@
             cursor: pointer;
             position: absolute;
             top: -84px;
+            transition: all .3s ease;
 
             &:hover {
                 background: #984df6;
@@ -2075,9 +2093,9 @@
         }
 
         a {
-            background: rgb(44, 43, 43);
+            background: #f2f3f5;
             font-size: 14px;
-            color: var(--white);
+            color: var(--black);
             border-radius: 9px;
             line-height: 22px;
             padding: 2px 8px;
@@ -2095,11 +2113,31 @@
     }
 
     h1 {
+        font-size: 42px;
+        line-height: 48px;
         padding: 30px 0 40px;
     }
 
     h2 {
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: 700;
         margin: 110px 0 24px;
+    }
+
+    h3 {
+        font-size: 14px;
+        line-height: 16px;
+        color: #55565e;
+    }
+
+    h4 {
+        font-size: 18px;
+        line-height: 24px;
+
+        strong {
+            font-weight: 700;
+        }
     }
 
     img {
@@ -2115,10 +2153,14 @@
     h3,
     a strong {
         margin-bottom: 16px;
-        line-height: 24px;
         text-align: justify;
-        color: var(--black);
+        color: #55565e;
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 400;
     }
+
+    p {}
 }
 
 /* --------------------------------- */

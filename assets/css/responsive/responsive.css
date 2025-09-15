@@ -270,14 +270,6 @@
 
 @media (max-width: 1024px) and (min-width: 768px) {
     .services-section {
-        .section---header {
-
-            p,
-            h2 {
-                span {}
-            }
-        }
-
         .services-layout-container {
             .service-card-container {
                 .service-card-inner {
@@ -375,17 +367,7 @@
                             img {}
                         }
                     }
-
-                    .stars-text {
-                        .stars {
-                            i {}
-                        }
-
-                        .text {}
-                    }
                 }
-
-                .hero-cta-button {}
             }
         }
     }
@@ -419,14 +401,6 @@
     }
 
     .services-section {
-        .section---header {
-
-            p,
-            h2 {
-                span {}
-            }
-        }
-
         .services-layout-container {
             grid-template-columns: 1fr;
 
@@ -590,10 +564,6 @@
     }
 
     .brands-worked-with-container {
-        &>h3 {}
-
-        &>div {}
-
         .brands-worked-with-swiper {
             .swiper-wrapper {}
 
@@ -606,14 +576,6 @@
     }
 
     .services-section {
-        .section---header {
-
-            p,
-            h2 {
-                span {}
-            }
-        }
-
         .services-layout-container {
             .service-card-container {
                 padding: 10px;
@@ -660,10 +622,6 @@
                             gap: 6px;
 
                             a {}
-                        }
-
-                        .service-desc {
-                            p {}
                         }
                     }
                 }
@@ -714,7 +672,7 @@
                         }
                     }
 
-                    h3 {
+                    .about-me-h3 {
                         font-size: 22px;
                         margin: 20px 0 10px 0;
                     }
@@ -792,8 +750,8 @@
     .about-me-section {
         & .about-me-container {
             .about-me-h1 {
-                margin: 0 auto;
-                line-height: 63px;
+                font-size: 50px;
+                line-height: 57px;
             }
         }
     }
@@ -854,6 +812,11 @@
         padding: 60px 0;
 
         .our-process-container {
+            .about-me-h2 {
+                font-size: 60px;
+                line-height: 68px
+            }
+
             .process-cards {
                 gap: 20px;
 
@@ -877,7 +840,7 @@
                         }
                     }
 
-                    h3 {
+                    .about-me-h3 {
                         font-size: 32px;
                         line-height: 38px;
                         margin: 36px 0 10px 0;
@@ -929,7 +892,7 @@
 
             & .about-me-text-fade {
                 font-size: 22px;
-                line-height: 28px;
+                line-height: 25px;
 
                 span {
                     font-size: 22px;
@@ -950,7 +913,7 @@
             .about-me-text-fade {
                 margin: 22px auto 36px;
                 font-size: 22px;
-                line-height: 28px;
+                line-height: 25px;
 
                 span {
                     font-size: 22px;
@@ -965,6 +928,8 @@
 
         .our-process-container {
             .about-me-h2 {
+                font-size: 50px;
+                line-height: 57px;
                 margin: 24px 0;
             }
 
@@ -983,7 +948,7 @@
                         }
                     }
 
-                    h3 {
+                    .about-me-h3 {
                         font-size: 26px;
                         line-height: 32px;
                         margin: 24px 0 6px 0;
@@ -1017,7 +982,8 @@
     }
 
     .about-me-h2 {
-        font-size: 36px;
+        font-size: 43px;
+        line-height: 49px;
     }
 
     .intro-section {
@@ -1058,7 +1024,7 @@
                         }
                     }
 
-                    h3 {
+                    .about-me-h3 {
                         font-size: 20px;
                         line-height: 24px;
                         margin: 24px 0 6px 0;
@@ -1132,7 +1098,7 @@
                         }
                     }
 
-                    h3 {
+                    .about-me-h3 {
                         font-size: 16px;
                         line-height: 20px;
                         margin: 16px 0 6px 0;
@@ -1194,7 +1160,7 @@
 @media (max-width:1150px) {
     .service-hero-section {
         & .service-hero-container {
-            h1 {
+            .service-container-h1 {
                 font-size: 42px;
                 line-height: 48px;
 
@@ -1213,7 +1179,7 @@
             flex-direction: column;
             gap: 30px;
 
-            h1 {
+            .service-container-h1 {
                 font-size: 56px;
                 line-height: 60px;
 
@@ -1256,7 +1222,7 @@
 @media (max-width:768px) {
     .service-hero-section {
         .service-hero-container {
-            h1 {
+            .service-container-h1 {
                 font-size: 42px;
                 line-height: 49px;
 
@@ -1277,7 +1243,7 @@
 @media (max-width:576px) {
     .service-hero-section {
         .service-hero-container {
-            h1 {
+            .service-container-h1 {
                 font-size: 34px;
                 line-height: 40px;
 
@@ -1310,7 +1276,7 @@
 @media (max-width:420px) {
     .service-hero-section {
         .service-hero-container {
-            h1 {
+            .service-container-h1 {
                 max-width: 100%;
                 font-size: 28px;
                 line-height: 34px;
@@ -1488,7 +1454,7 @@
                 gap: 40px;
                 height: max-content;
 
-                h3 {
+                .mockup-h3 {
                     font-size: 32px;
                 }
             }
@@ -1504,7 +1470,7 @@
         .exper-heading {
             padding: 26px 0 66px;
 
-            h2 {
+            .project-exper-h2 {
                 font-size: 24px;
                 line-height: 25px;
             }
@@ -1526,8 +1492,9 @@
             .plan-main-container {
                 .plan-title {
                     div {
-                        h2 {
+                        .plan-title-h2 {
                             font-size: 50px;
+                            line-height: 60px;
                         }
                     }
                 }
@@ -1575,10 +1542,12 @@
     /* #####################  */
     /* #####################  */
     /* #####################  */
-    .testimonial-profile {
-        & .profile-title {
-            p {
-                font-size: 16px;
+    .testimonial-section {
+        .testimonial-profile {
+            & .profile-title {
+                p {
+                    font-size: 16px;
+                }
             }
         }
     }
@@ -1610,21 +1579,21 @@
                 }
             }
         }
-    }
 
-    .overview-container {
-        padding: 20px 26px;
-        gap: 20px;
+        .overview-container {
+            padding: 20px 26px;
+            gap: 20px;
 
-        .overview-list {
-            .overview-item {
-                :nth-child(1) {
-                    font-size: 40px;
-                    line-height: 36px;
-                }
+            .overview-list {
+                .overview-item {
+                    :nth-child(1) {
+                        font-size: 40px;
+                        line-height: 36px;
+                    }
 
-                :nth-child(2) {
-                    font-size: 12px;
+                    :nth-child(2) {
+                        font-size: 12px;
+                    }
                 }
             }
         }
@@ -1658,7 +1627,7 @@
         .exper-heading {
             padding: 14px 0 40px;
 
-            h2 {
+            .project-exper-h2 {
                 font-size: 20px;
             }
 
@@ -1676,7 +1645,7 @@
             .plan-main-container {
                 .plan-title {
                     div {
-                        h2 {
+                        .plan-title-h2 {
                             font-size: 40px;
                             line-height: 48px;
                         }
@@ -1726,10 +1695,12 @@
         .testimonial-container {
             &>p {
                 font-size: 34px;
+                line-height: 40px;
                 margin: 10px 0 24px;
 
                 span {
                     font-size: 34px;
+                    line-height: 40px;
                 }
             }
         }
@@ -1759,28 +1730,28 @@
 
             gap: 10px;
         }
-    }
 
-    .overview-container {
-        align-items: start;
-        padding: 14px 18px;
-        gap: 10px;
-        margin-top: 20px;
-
-        .overview-list {
+        .overview-container {
+            align-items: start;
+            padding: 14px 18px;
             gap: 10px;
+            margin-top: 20px;
 
-            .overview-item {
-                max-width: 235px;
+            .overview-list {
+                gap: 10px;
 
-                :nth-child(1) {
-                    font-size: 28px;
-                    line-height: 36px;
-                }
+                .overview-item {
+                    max-width: 235px;
 
-                :nth-child(2) {
-                    font-size: 10px;
-                    line-height: 10px;
+                    :nth-child(1) {
+                        font-size: 28px;
+                        line-height: 36px;
+                    }
+
+                    :nth-child(2) {
+                        font-size: 10px;
+                        line-height: 10px;
+                    }
                 }
             }
         }
@@ -1836,7 +1807,7 @@
             }
         }
 
-        .mockups-container {
+        .mockup-containers {
             gap: 10px;
 
             .mockup-container {
@@ -1853,7 +1824,7 @@
                     height: max-content;
                     padding: 14px;
 
-                    h3 {
+                    .mockup-h3 {
                         font-size: 26px;
                     }
                 }
@@ -1868,7 +1839,7 @@
         .exper-heading {
             padding: 10px 0 24px;
 
-            h2 {
+            .project-exper-h2 {
                 font-size: 15px;
                 line-height: 17px;
             }
@@ -1888,7 +1859,7 @@
                     margin: 10px 0;
 
                     div {
-                        h2 {
+                        .plan-title-h2 {
                             font-size: 28px;
                             line-height: 34px;
                         }
@@ -1949,7 +1920,7 @@
 
     .testimonial-profile {
         & .profile-title {
-            h3 {
+            .profile-title-h3 {
                 font-size: 22px;
                 line-height: 27px;
             }
@@ -1983,19 +1954,19 @@
                 }
             }
         }
-    }
 
-    .overview-container {
-        .overview-list {
-            .overview-item {
-                :nth-child(1) {
-                    font-size: 24px;
-                    line-height: 29px;
-                }
+        .overview-container {
+            .overview-list {
+                .overview-item {
+                    :nth-child(1) {
+                        font-size: 24px;
+                        line-height: 29px;
+                    }
 
-                :nth-child(2) {
-                    font-size: 9px;
-                    line-height: 13px;
+                    :nth-child(2) {
+                        font-size: 9px;
+                        line-height: 13px;
+                    }
                 }
             }
         }
@@ -2055,7 +2026,7 @@
     .project-ourwork-section {
         margin: 40px 0;
 
-        .mockups-container {
+        .mockup-containers {
             gap: 10px;
 
             .mockup-container {
@@ -2072,7 +2043,7 @@
                     height: max-content;
                     padding: 14px;
 
-                    h3 {
+                    .mockup-h3 {
                         font-size: 16px;
                     }
                 }
@@ -2087,7 +2058,7 @@
         .exper-heading {
             padding: 10px 0 24px;
 
-            h2 {
+            .project-exper-h2 {
                 font-size: 15px;
                 line-height: 17px;
             }
@@ -2095,27 +2066,6 @@
     }
 
     /* ##############################  */
-    .project-plan-section {
-        margin: 60px 0;
-
-        .project-plan-container {
-            .plan-main-container {
-                .plan-title {
-                    div {
-                        h2 {
-                            font-size: 40px;
-                            line-height: 48px;
-                        }
-
-                        i {
-                            font-size: 27px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
     /* ############################  */
     .project-plan-section {
         margin: 50px 0;
@@ -2128,7 +2078,7 @@
                     margin: 10px 0;
 
                     div {
-                        h2 {
+                        .plan-title-h2 {
                             font-size: 24px;
                             line-height: 29px;
                         }
@@ -2206,7 +2156,7 @@
         }
 
         & .profile-title {
-            h3 {
+            .profile-title-h3 {
                 font-size: 16px;
                 line-height: 21px;
             }
@@ -2300,7 +2250,7 @@
         .info-heading {
             gap: 20px;
 
-            h1 {
+            .info-container-h1 {
                 font-size: 66px;
                 max-width: 352px;
             }
@@ -2513,7 +2463,7 @@
         .info-heading {
             gap: 8px;
 
-            h1 {
+            .info-container-h1 {
                 font-size: 44px;
             }
 
@@ -2638,7 +2588,7 @@
             gap: 16px;
 
             .info-heading {
-                h1 {
+                .info-container-h1 {
                     font-size: 41px;
                     line-height: 47px;
                 }
@@ -2758,11 +2708,6 @@
 /* ----------------------------------  */
 /* ----------------------------------  */
 @media(max-width:992px) {
-    h2 {
-        font-size: 30px;
-        line-height: 46px;
-    }
-
     .blog-main-image {
         padding: 6px;
         border-radius: 0;
@@ -2774,58 +2719,47 @@
             margin-left: 0;
         }
 
-        h2 {
+        .blog-h2 {
             margin-top: 70px;
+            font-size: 30px;
+            line-height: 38px;
         }
     }
 }
 
 @media(max-width:768px) {
-    h1 {
-        font-size: 42px;
-        line-height: 48px;
-    }
-
-    h2 {
-        font-size: 30px;
-        line-height: 36px;
-    }
-
-    h4 {
-        font-size: 18px;
-        line-height: 24px;
-    }
-
     .blog-main-image {
         height: 350px;
     }
 }
 
 @media(max-width:576px) {
-    h1 {
+    .blog-h1 {
         font-size: 38px;
         line-height: 44px;
     }
 }
 
 @media(max-width:420px) {
-    h1 {
+    .blog-h1 {
         font-size: 28px;
         line-height: 36px;
     }
 
-    h2 {
+    .blog-h2 {
         font-size: 22px;
         line-height: 30px;
     }
 
-    h3 {
+    .blog-h3 {
         font-size: 15px;
+        line-height: 22px;
         font-weight: 20px;
     }
 
     p {
         font-size: 11px;
+        line-height: 16px;
     }
 
     .blog-main-image {
@@ -2833,7 +2767,7 @@
     }
 
     .question-blog-container {
-        h2 {
+        .blog-h2 {
             margin-top: 40px;
         }
     }

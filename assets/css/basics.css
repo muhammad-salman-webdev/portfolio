@@ -33,9 +33,7 @@
 }
 
 body {
-    /* background-color: var(--black);
-
-    color: white; */
+    color: white;
     background-color: white;
     color: var(--black);
     overflow-x: hidden;
@@ -210,7 +208,7 @@ h3 {
 
     span {
         font-size: 38px;
-        color: var(--gray);
+        color: var(--gray-color);
     }
 }
 
@@ -256,7 +254,7 @@ h3 {
 
         p,
         h2 {
-            color: rgb(0, 0, 0);
+            color: var(--black);
 
             span {
                 color: inherit;
@@ -300,7 +298,7 @@ h3 {
         line-height: 29px;
 
         span {
-            color: var(--gray);
+            color: var(--gray-color);
             font-size: 20px;
         }
     }
@@ -314,7 +312,7 @@ h3 {
 
         span {
             font-size: 46px;
-            color: var(--gray);
+            color: var(--gray-color);
         }
     }
 
@@ -368,7 +366,7 @@ h3 {
         line-height: 29px;
 
         span {
-            color: var(--gray);
+            color: var(--gray-color);
             font-size: 16px;
         }
     }
@@ -386,11 +384,11 @@ h3 {
     /* Fade Text large  */
     .text-fade-lg {
         font-size: 41px;
-        line-height: 41px;
+        line-height: 47px;
 
         span {
             font-size: 41px;
-            color: var(--gray);
+            line-height: 47px;
         }
     }
 
@@ -494,7 +492,7 @@ h3 {
 @media (max-width:420px) {
     h2 {
         font-size: 24px;
-        font-weight: 32px;
+        line-height: 32px;
     }
 
     .project-process-label {
