@@ -212,8 +212,6 @@
                 .hero-title {
                     font-size: 60px;
                     line-height: 76px;
-
-                    span {}
                 }
 
                 &>p {}
@@ -358,14 +356,6 @@
 
                             &::before {}
                         }
-
-                        &>a {
-                            &:not(:nth-child(2)) {}
-
-                            &:hover {}
-
-                            img {}
-                        }
                     }
                 }
             }
@@ -383,12 +373,8 @@
         &>div {}
 
         .brands-worked-with-swiper {
-            .swiper-wrapper {}
-
             .swiper-slide {
                 width: 90px;
-
-                img {}
             }
         }
     }
@@ -647,10 +633,20 @@
                 margin: 0 auto;
                 font-size: 55px;
                 line-height: 63px;
+
+                span {
+                    font-size: 55px;
+                    line-height: 63px;
+                }
             }
         }
     }
 
+    /* #####################  */
+    /* #####################  */
+    /* #####################  */
+    /* #####################  */
+    /* #####################  */
     .our-process-section {
         .our-process-container {
             .process-cards {
@@ -672,7 +668,7 @@
                         }
                     }
 
-                    .about-me-h3 {
+                    .process-card-h3 {
                         font-size: 22px;
                         margin: 20px 0 10px 0;
                     }
@@ -752,10 +748,20 @@
             .about-me-h1 {
                 font-size: 50px;
                 line-height: 57px;
+
+                span {
+                    font-size: 50px;
+                    line-height: 57px;
+                }
             }
         }
     }
 
+    /* #####################  */
+    /* #####################  */
+    /* #####################  */
+    /* #####################  */
+    /* #####################  */
     .our-process-section {
         .our-process-container {
             .process-cards {
@@ -795,9 +801,6 @@
     }
 }
 
-/* #############################  */
-/* #############################  */
-/* #############################  */
 /* #############################  */
 @media (max-width:1015px) {
     .about-me-section {
@@ -840,7 +843,7 @@
                         }
                     }
 
-                    .about-me-h3 {
+                    .process-card-h3 {
                         font-size: 32px;
                         line-height: 38px;
                         margin: 36px 0 10px 0;
@@ -884,10 +887,19 @@
 /* #############################  */
 @media (max-width:678px) {
     .about-me-section {
+        padding: 40px 0;
+
         & .about-me-container {
+            gap: 20px;
+
             .about-me-h1 {
                 font-size: 40px;
                 line-height: 53px;
+
+                span {
+                    font-size: 40px;
+                    line-height: 53px;
+                }
             }
 
             & .about-me-text-fade {
@@ -902,10 +914,8 @@
         }
     }
 
-    .about-me-section {
-        padding: 40px 0;
-    }
-
+    /* #############################  */
+    /* #############################  */
     .intro-section {
         padding: 40px 0;
 
@@ -923,6 +933,8 @@
         }
     }
 
+    /* #############################  */
+    /* #############################  */
     .our-process-section {
         padding: 40px 0;
 
@@ -948,7 +960,7 @@
                         }
                     }
 
-                    .about-me-h3 {
+                    .process-card-h3 {
                         font-size: 26px;
                         line-height: 32px;
                         margin: 24px 0 6px 0;
@@ -971,21 +983,21 @@
 /* #############################  */
 /* #############################  */
 @media (max-width:576px) {
-    .about-me-h1 {
-        font-size: 48px;
-        line-height: 58px;
+    .about-me-section {
+        & .about-me-container {
+            .about-me-h1 {
+                font-size: 48px;
+                line-height: 58px;
 
-        span {
-            color: var(--gray);
-            font-family: "inter";
+                span {
+                    font-size: 48px;
+                }
+            }
         }
     }
 
-    .about-me-h2 {
-        font-size: 43px;
-        line-height: 49px;
-    }
-
+    /* #############################  */
+    /* #############################  */
     .intro-section {
         & .intro-container {
             .about-me-text-fade {
@@ -1000,10 +1012,19 @@
         }
     }
 
+    /* #############################  */
+    /* #############################  */
     .our-process-section {
         .our-process-container {
+            .about-me-h2 {
+                font-size: 43px;
+                line-height: 49px;
+            }
+
             .process-cards {
                 .process-card-image {
+                    display: flex;
+
                     img {
                         border-radius: 10px;
                     }
@@ -1024,7 +1045,7 @@
                         }
                     }
 
-                    .about-me-h3 {
+                    .process-card-h3 {
                         font-size: 20px;
                         line-height: 24px;
                         margin: 24px 0 6px 0;
@@ -1047,20 +1068,16 @@
 /* #############################  */
 /* #############################  */
 @media (max-width:420px) {
-    .about-me-h2 {
-        font-size: 26px;
-        margin: 0 0 0 24px;
-    }
-
     .about-me-section {
         .about-me-container {
+            gap: 14px;
+
             .about-me-h1 {
                 font-size: 30px;
-                line-height: 37px;
+                line-height: 30px;
 
                 span {
-                    color: var(--gray);
-                    font-family: "inter";
+                    font-size: 30px;
                 }
             }
 
@@ -1088,17 +1105,12 @@
                     padding: 16px 16px 26px;
 
                     .process-card-heading {
-                        .label-text {
-                            font-size: 14px;
-                            line-height: 20px;
-                        }
-
                         .label-code {
                             font-size: 16px;
                         }
                     }
 
-                    .about-me-h3 {
+                    .process-card-h3 {
                         font-size: 16px;
                         line-height: 20px;
                         margin: 16px 0 6px 0;
@@ -1175,38 +1187,40 @@
 
 @media (max-width:992px) {
     .service-hero-section {
-        .service-hero-container {
-            flex-direction: column;
-            gap: 30px;
+        .container {
+            .service-hero-container {
+                flex-direction: column;
+                gap: 30px;
 
-            .service-container-h1 {
-                font-size: 56px;
-                line-height: 60px;
-
-                span {
+                .service-container-h1 {
                     font-size: 56px;
                     line-height: 60px;
-                }
-            }
-
-            .service-subtitle-container {
-                gap: 50px;
-                max-width: 100%;
-
-                .service-subtitle {
-                    font-size: 20px;
-                    line-height: 26px;
 
                     span {
-                        font-size: 20px;
-                        line-height: 26px;
+                        font-size: 56px;
+                        line-height: 60px;
                     }
                 }
 
-                .c_btn {
-                    span {
+                .service-subtitle-container {
+                    gap: 50px;
+                    max-width: 100%;
+
+                    .service-subtitle {
                         font-size: 20px;
-                        list-style: 24px;
+                        line-height: 26px;
+
+                        span {
+                            font-size: 20px;
+                            line-height: 26px;
+                        }
+                    }
+
+                    .c_btn {
+                        span {
+                            font-size: 20px;
+                            list-style: 24px;
+                        }
                     }
                 }
             }
@@ -1221,14 +1235,16 @@
 /* #####################  */
 @media (max-width:768px) {
     .service-hero-section {
-        .service-hero-container {
-            .service-container-h1 {
-                font-size: 42px;
-                line-height: 49px;
-
-                span {
+        .container {
+            .service-hero-container {
+                .service-container-h1 {
                     font-size: 42px;
                     line-height: 49px;
+
+                    span {
+                        font-size: 42px;
+                        line-height: 49px;
+                    }
                 }
             }
         }
@@ -1242,25 +1258,27 @@
 /* #####################  */
 @media (max-width:576px) {
     .service-hero-section {
-        .service-hero-container {
-            .service-container-h1 {
-                font-size: 34px;
-                line-height: 40px;
-
-                span {
+        .container {
+            .service-hero-container {
+                .service-container-h1 {
                     font-size: 34px;
-                    line-height: 36px;
-                }
-            }
-
-            .service-subtitle-container {
-                .service-subtitle {
-                    font-size: 16px;
-                    line-height: 22px;
+                    line-height: 40px;
 
                     span {
+                        font-size: 34px;
+                        line-height: 36px;
+                    }
+                }
+
+                .service-subtitle-container {
+                    .service-subtitle {
                         font-size: 16px;
                         line-height: 22px;
+
+                        span {
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
                     }
                 }
             }
@@ -1275,15 +1293,17 @@
 /* #####################  */
 @media (max-width:420px) {
     .service-hero-section {
-        .service-hero-container {
-            .service-container-h1 {
-                max-width: 100%;
-                font-size: 28px;
-                line-height: 34px;
-
-                span {
+        .container {
+            .service-hero-container {
+                .service-container-h1 {
+                    max-width: 100%;
                     font-size: 28px;
-                    line-height: 27px;
+                    line-height: 34px;
+
+                    span {
+                        font-size: 28px;
+                        line-height: 27px;
+                    }
                 }
             }
         }
@@ -1338,9 +1358,11 @@
 /* ------------------------------------ */
 @media (max-width:1272px) {
     .result-section {
-        .result-container {
-            .result-image {
-                display: none;
+        .container {
+            .result-container {
+                .result-image {
+                    display: none;
+                }
             }
         }
     }
@@ -1348,39 +1370,41 @@
 
 @media (max-width:992px) {
     .project-intro-section {
-        .project-intro-container {
-            gap: 50px;
-
-            .info-container {
-                flex-direction: column;
+        .container {
+            .project-intro-container {
                 gap: 50px;
 
-                .intro-desc {
-                    color: var(--gray);
-                    align-self: start;
-                    max-width: 100%;
+                .info-container {
+                    flex-direction: column;
+                    gap: 50px;
 
-                    &>a {
-                        margin-top: 18px;
+                    .intro-desc {
+                        color: var(--gray);
+                        align-self: start;
+                        max-width: 100%;
+
+                        &>a {
+                            margin-top: 18px;
+                        }
                     }
                 }
-            }
-        }
-    }
 
-    .overview-container {
-        align-items: center;
-        flex-direction: column;
-        gap: 30px;
-        padding: 30px 36px;
+                .overview-container {
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 30px;
+                    padding: 30px 36px;
 
-        .overview-list {
-            justify-content: space-between;
-            min-width: 100%;
+                    .overview-list {
+                        justify-content: space-between;
+                        min-width: 100%;
 
-            .overview-item {
-                :nth-child(2) {
-                    font-size: 14px;
+                        .overview-item {
+                            :nth-child(2) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1524,14 +1548,16 @@
     /* #########################  */
     /* #########################  */
     .result-section {
-        .result-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            height: max-content;
+        .container {
+            .result-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: max-content;
 
-            p {
-                margin-top: 20px;
+                p {
+                    margin-top: 20px;
+                }
             }
         }
     }
@@ -1543,10 +1569,12 @@
     /* #####################  */
     /* #####################  */
     .testimonial-section {
-        .testimonial-profile {
-            & .profile-title {
-                p {
-                    font-size: 16px;
+        .container {
+            .testimonial-profile {
+                & .profile-title {
+                    p {
+                        font-size: 16px;
+                    }
                 }
             }
         }
@@ -1583,6 +1611,15 @@
         .overview-container {
             padding: 20px 26px;
             gap: 20px;
+
+            .overview-container-subtitle {
+                font-size: 26px;
+                line-height: 33px;
+
+                span {
+                    font-size: 26px;
+                }
+            }
 
             .overview-list {
                 .overview-item {
@@ -1704,12 +1741,12 @@
                 }
             }
         }
-    }
 
-    .testimonial-profile {
-        & .profile-title {
-            p {
-                font-size: 16px;
+        .testimonial-profile {
+            & .profile-title {
+                p {
+                    font-size: 16px;
+                }
             }
         }
     }
@@ -1736,6 +1773,16 @@
             padding: 14px 18px;
             gap: 10px;
             margin-top: 20px;
+
+            .overview-container-subtitle {
+                font-size: 20px;
+                line-height: 28px;
+
+                span {
+                    line-height: 28px;
+                    font-size: 20px;
+                }
+            }
 
             .overview-list {
                 gap: 10px;
@@ -1889,6 +1936,16 @@
             .result-content {
                 padding: 26px 28px;
 
+                .result-content-fade-text {
+                    font-size: 20px;
+                    line-height: 28px;
+
+                    span {
+                        line-height: 28px;
+                        font-size: 20px;
+                    }
+                }
+
                 p {
                     margin: 10px 0;
                 }
@@ -1916,17 +1973,17 @@
                 }
             }
         }
-    }
 
-    .testimonial-profile {
-        & .profile-title {
-            .profile-title-h3 {
-                font-size: 22px;
-                line-height: 27px;
-            }
+        .testimonial-profile {
+            & .profile-title {
+                .profile-title-h3 {
+                    font-size: 22px;
+                    line-height: 27px;
+                }
 
-            p {
-                font-size: 16px;
+                p {
+                    font-size: 16px;
+                }
             }
         }
     }
@@ -1956,6 +2013,16 @@
         }
 
         .overview-container {
+            .overview-container-subtitle {
+                font-size: 16px;
+                line-height: 23px;
+
+                span {
+                    font-size: 16px;
+                    line-height: 23px;
+                }
+            }
+
             .overview-list {
                 .overview-item {
                     :nth-child(1) {
@@ -2119,7 +2186,17 @@
 
         & .result-container {
             .result-content {
-                padding: 26px 28px;
+                padding: 20px 22px;
+
+                .result-content-fade-text {
+                    font-size: 16px;
+                    line-height: 23px;
+
+                    span {
+                        font-size: 16px;
+                        line-height: 23px;
+                    }
+                }
             }
         }
     }
@@ -2144,25 +2221,25 @@
                 }
             }
         }
-    }
 
-    .testimonial-profile {
-        & .profile-image {
-            width: 48px;
+        .testimonial-profile {
+            & .profile-image {
+                width: 48px;
 
-            img {
-                width: 100%;
-            }
-        }
-
-        & .profile-title {
-            .profile-title-h3 {
-                font-size: 16px;
-                line-height: 21px;
+                img {
+                    width: 100%;
+                }
             }
 
-            p {
-                font-size: 13px;
+            & .profile-title {
+                .profile-title-h3 {
+                    font-size: 20px;
+                    line-height: 21px;
+                }
+
+                p {
+                    font-size: 13px;
+                }
             }
         }
     }
@@ -2217,11 +2294,19 @@
         }
     }
 
-    .contact-form-container {
-        & .contact-form {
-            & .form-input-group {
-                .form-inputs {
-                    flex-direction: column;
+    .contact-info-section {
+        & .container {
+            & .contact-info-container {
+                & .info-main-container {
+                    .contact-form-container {
+                        & .contact-form {
+                            & .form-input-group {
+                                .form-inputs {
+                                    flex-direction: column;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -2244,60 +2329,66 @@
         line-height: 28px;
     }
 
-    .info-main-container {
-        grid-template-columns: repeat(1, 1fr);
+    .contact-info-section {
+        .container {
+            .contact-info-container {
+                .info-main-container {
+                    grid-template-columns: repeat(1, 1fr);
 
-        .info-heading {
-            gap: 20px;
+                    .info-heading {
+                        gap: 20px;
 
-            .info-container-h1 {
-                font-size: 66px;
-                max-width: 352px;
-            }
+                        .info-container-h1 {
+                            font-size: 66px;
+                            max-width: 352px;
+                        }
 
-            /* pehly ya15 tha  */
-            p {
-                font-size: 18px;
-                line-height: 22px;
-                max-width: 100%;
-            }
-        }
+                        /* pehly ya15 tha  */
+                        p {
+                            font-size: 18px;
+                            line-height: 22px;
+                            max-width: 100%;
+                        }
+                    }
 
-        .feature-container {
-            position: relative;
-        }
+                    .feature-container {
+                        position: relative;
 
-        .contact-video {
-            width: 156px;
-            position: absolute;
-            top: -105px;
-            right: 58px;
-        }
-    }
+                        .contact-video {
+                            max-width: 156px;
+                            position: absolute;
+                            top: -105px;
+                            right: 58px;
+                        }
+                    }
 
-    .contact-box-container {
-        .contact-box {
-            gap: 60px;
-        }
+                    .contact-box-container {
+                        .contact-box {
+                            gap: 60px;
+                        }
 
-        .contact-address {
-            max-width: 460px;
-        }
+                        .contact-address {
+                            max-width: 460px;
+                        }
 
-        .social-links {
-            gap: 18px;
+                        .social-links {
+                            gap: 18px;
 
-            a {
-                font-size: 18px;
-            }
-        }
-    }
+                            a {
+                                font-size: 18px;
+                            }
+                        }
+                    }
 
-    .contact-form-container {
-        & .contact-form {
-            & .form-input-group {
-                .form-inputs {
-                    flex-direction: row;
+                    .contact-form-container {
+                        & .contact-form {
+                            & .form-input-group {
+                                .form-inputs {
+                                    flex-direction: row;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -2322,96 +2413,93 @@
         line-height: 28px;
     }
 
-    .info-main-container {
+    .contact-info-section {
+        & .container {
+            & .contact-info-container {
+                & .info-main-container {
+                    .info-heading {
+                        &>p {
+                            font-size: 21px;
+                            line-height: 29px;
+                            max-width: 330px;
+                            padding: 8px 0;
+                        }
+                    }
 
-        /* gap: px; */
-        .info-heading {
+                    .feature-container {
+                        position: relative;
 
-            /* pehly ya15 tha  */
-            &>p {
-                font-size: 21px;
-                line-height: 29px;
-                max-width: 330px;
-                padding: 8px 0;
-            }
-        }
+                        .contact-video {
+                            max-width: 180px;
+                            top: -174px;
+                            right: 27px;
+                        }
 
-        .feature-container {
-            position: relative;
+                        .features-list {
+                            gap: 22px;
+                            margin-top: 14px;
 
-            .features-list {
-                gap: 22px;
-                margin-top: 14px;
+                            .feature-item {
+                                span {
+                                    font-size: 21px;
+                                }
+                            }
+                        }
+                    }
 
-                .feature-item {
-                    span {
-                        font-size: 21px;
+                    .contact-box-container {
+                        margin-top: 26px;
+                        padding: 28px 16px;
+
+                        .contact-box {
+                            flex-direction: column;
+                            gap: 30px;
+
+                            .contact-item {
+                                gap: 0;
+                            }
+                        }
+
+                        .contact-address {
+                            max-width: 320px;
+                            font-size: 14px;
+                        }
+
+                        .social-links {
+                            margin-top: 10px;
+                            display: grid;
+                            grid-template-columns: repeat(3, 1fr);
+
+                            a {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    .contact-form-container {
+                        padding: 20px 20px;
+
+                        & .contact-form {
+                            & .form-input-group {
+                                .form-inputs {
+                                    flex-direction: column;
+
+                                    input {
+                                        padding: 20px 18px;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
         }
-
-        .contact-video {
-            max-width: 180px;
-            top: -174px;
-            right: 27px;
-        }
     }
 
-    .contact-box-container {
-        margin-top: 26px;
-        padding: 28px 16px;
-
-        .contact-box {
-            flex-direction: column;
-            gap: 30px;
-
-            .contact-item {
-                gap: 0;
-            }
-        }
-
-        .contact-address {
-            max-width: 320px;
-            font-size: 14px;
-        }
-
-        .social-links {
-            margin-top: 10px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-
-            a {
-                font-size: 20px;
-            }
-        }
-    }
-
-    /* #######################  */
-    /* #######################  */
-    /* #######################  */
-    /* #######################  */
-    .contact-form-container {
-        padding: 20px 20px;
-
-        & .contact-form {
-            & .form-input-group {
-                .form-inputs {
-                    flex-direction: column;
-
-                    input {
-                        padding: 20px 18px;
-                    }
-                }
-            }
-        }
-    }
-
-    /* #########################  */
-    /* #########################  */
-    /* #########################  */
-    /* #########################  */
-    /* #########################  */
+    /* ####################  */
+    /* ####################  */
+    /* ####################  */
+    /* ####################  */
     .booking-section {
         & .booking-container {
             padding: 20px;
@@ -2457,43 +2545,48 @@
         line-height: 21px;
     }
 
-    .info-main-container {
-        gap: 16px;
+    .contact-info-section {
+        & .container {
+            & .contact-info-container {
+                .info-main-container {
+                    gap: 16px;
 
-        .info-heading {
-            gap: 8px;
+                    .info-heading {
+                        gap: 8px;
 
-            .info-container-h1 {
-                font-size: 44px;
-            }
+                        .info-container-h1 {
+                            font-size: 44px;
+                        }
 
-            /* pehly ya15 tha  */
-            &>p {
-                font-size: 15px;
-                line-height: 20px;
-                max-width: 240px;
-            }
-        }
+                        &>p {
+                            font-size: 15px;
+                            line-height: 20px;
+                            max-width: 240px;
+                        }
+                    }
 
-        .feature-container {
-            position: relative;
+                    .feature-container {
+                        position: relative;
 
-            .features-list {
-                gap: 10px;
-                margin-top: 0px;
+                        .features-list {
+                            gap: 10px;
+                            margin-top: 0px;
 
-                .feature-item {
-                    span {
-                        font-size: 15px;
+                            .feature-item {
+                                span {
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+
+                        .contact-video {
+                            max-width: 135px;
+                            top: -147px;
+                            right: 18px;
+                        }
                     }
                 }
             }
-        }
-
-        .contact-video {
-            max-width: 135px;
-            top: -147px;
-            right: 18px;
         }
     }
 
@@ -2546,9 +2639,15 @@
     .contact-info-section {
         margin-top: 20px;
 
-        .info-main-container {
-            .contact-video {
-                max-width: 110px;
+        & .container {
+            & .contact-info-container {
+                .info-main-container {
+                    & .feature-container {
+                        .contact-video {
+                            max-width: 110px;
+                        }
+                    }
+                }
             }
         }
     }
@@ -2575,87 +2674,89 @@
         }
     }
 
+    /* #########################  */
+    /* #########################  */
     .contact-info-section {
-        .info-main-container {
-            & .info-heading {
-                &>p {
-                    font-size: 13px;
-                    line-height: 20px;
-                    max-width: 210px;
-                }
-            }
+        & .container {
+            & .contact-info-container {
+                & .info-main-container {
+                    gap: 16px;
 
-            gap: 16px;
+                    & .info-heading {
+                        .info-container-h1 {
+                            font-size: 41px;
+                            line-height: 47px;
+                        }
 
-            .info-heading {
-                .info-container-h1 {
-                    font-size: 41px;
-                    line-height: 47px;
-                }
-            }
-
-            .contact-video {
-                max-width: 100px;
-                top: -127px;
-                right: 16px;
-            }
-
-            & .feature-container {
-                & .features-list {
-                    & .feature-item {
-                        span {
+                        &>p {
                             font-size: 13px;
-                            line-height: 16px;
+                            line-height: 20px;
+                            max-width: 210px;
                         }
                     }
-                }
-            }
-        }
-    }
 
-    .contact-box-container {
-        .contact-box {
-            gap: 20px;
+                    & .feature-container {
+                        .contact-video {
+                            max-width: 100px;
+                            top: -127px;
+                            right: 16px;
+                        }
 
-            .contact-item {
-                gap: 0;
-            }
-        }
+                        & .features-list {
+                            & .feature-item {
+                                span {
+                                    font-size: 13px;
+                                    line-height: 16px;
+                                }
+                            }
+                        }
+                    }
 
-        & .social-links {
-            display: flex;
-            gap: 8px;
+                    .contact-box-container {
+                        .contact-box {
+                            gap: 20px;
 
-            a {
-                font-size: 10px;
-            }
-        }
-    }
+                            .contact-item {
+                                gap: 0;
+                            }
+                        }
 
-    /* #########################  */
-    /* #########################  */
-    .contact-form-container {
-        & .contact-form {
-            p {
-                font-size: 11px;
-                line-height: 15px;
-                max-width: 250px;
+                        & .social-links {
+                            display: flex;
+                            gap: 8px;
 
-                a {
-                    font-size: 11px;
-                    line-height: 15px;
-                }
-            }
+                            a {
+                                font-size: 10px;
+                            }
+                        }
+                    }
 
-            & .form-input-group {
-                gap: 3px;
+                    .contact-form-container {
+                        & .contact-form {
+                            p {
+                                font-size: 11px;
+                                line-height: 15px;
+                                max-width: 250px;
 
-                & .form-inputs {
-                    gap: 3px;
+                                a {
+                                    font-size: 11px;
+                                    line-height: 15px;
+                                }
+                            }
 
-                    input {
-                        border: 1px solid rgb(97, 94, 94);
-                        padding: 10px 14px;
+                            & .form-input-group {
+                                gap: 3px;
+
+                                & .form-inputs {
+                                    gap: 3px;
+
+                                    input {
+                                        border: 1px solid rgb(97, 94, 94);
+                                        padding: 10px 14px;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
