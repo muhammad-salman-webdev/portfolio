@@ -2278,7 +2278,7 @@
 /* ----------------------------------  */
 /* ----------------------------------  */
 @media (max-width: 1156px) {
-    .text-lg-23 {
+    .text-lg {
         font-size: 21px;
         font-weight: 500;
         line-height: 25px;
@@ -2317,7 +2317,7 @@
 /* ############################  */
 /* ############################  */
 @media (max-width: 992px) {
-    .text-lg-23 {
+    .text-lg {
         font-size: 26px;
         font-weight: 500;
         line-height: 28px;
@@ -2401,7 +2401,7 @@
 /* ############################  */
 /* ############################  */
 @media (max-width: 768px) {
-    .text-lg-23 {
+    .text-lg {
         font-size: 38px;
         font-weight: 500;
         line-height: 44px;
@@ -2533,7 +2533,7 @@
 /* ############################  */
 /* ############################  */
 @media (max-width: 576px) {
-    .text-lg-23 {
+    .text-lg {
         font-size: 29px;
         font-weight: 500;
         line-height: 36px;
@@ -2585,30 +2585,30 @@
                             right: 18px;
                         }
                     }
+
+                    .contact-box-container {
+                        .reviews-image {
+                            margin-top: 70px;
+                        }
+
+                        .contact-box {
+                            gap: 20px;
+
+                            .contact-item {
+                                gap: 0;
+                            }
+                        }
+
+                        .social-links {
+                            margin-top: 0;
+                            gap: 8px;
+
+                            a {
+                                font-size: 15px;
+                            }
+                        }
+                    }
                 }
-            }
-        }
-    }
-
-    .contact-box-container {
-        .reviews-image {
-            margin-top: 70px;
-        }
-
-        .contact-box {
-            gap: 20px;
-
-            .contact-item {
-                gap: 0;
-            }
-        }
-
-        .social-links {
-            margin-top: 0;
-            gap: 8px;
-
-            a {
-                font-size: 15px;
             }
         }
     }
@@ -2655,7 +2655,7 @@
 
 /* ############################  */
 @media (max-width: 420px) {
-    .text-lg-23 {
+    .text-lg {
         font-size: 25px;
         line-height: 31px;
     }
