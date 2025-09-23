@@ -159,8 +159,6 @@
                     }
                 }
 
-                .header-right-button {}
-
                 .resp-menu-toggle-btn {
                     display: block;
                     z-index: 11;
@@ -1424,6 +1422,7 @@
                 .chal-content {
                     margin-bottom: 36px;
                     font-size: 26px;
+                    line-height: 31px;
 
                     span {
                         font-size: 26px;
@@ -1595,41 +1594,43 @@
 /* ############################# */
 @media (max-width:768px) {
     .project-intro-section {
-        .project-intro-container {
-            gap: 20px;
+        .container {
+            .project-intro-container {
+                gap: 20px;
 
-            .info-container {
-                flex-direction: column;
-                gap: 30px;
+                .info-container {
+                    flex-direction: column;
+                    gap: 30px;
 
-                .intro-desc {
-                    margin-right: 0;
+                    .intro-desc {
+                        margin-right: 0;
+                    }
                 }
-            }
-        }
 
-        .overview-container {
-            padding: 20px 26px;
-            gap: 20px;
+                .overview-container {
+                    padding: 20px 26px;
+                    gap: 20px;
 
-            .overview-container-subtitle {
-                font-size: 26px;
-                line-height: 33px;
+                    .overview-container-subtitle {
+                        font-size: 26px;
+                        line-height: 33px;
 
-                span {
-                    font-size: 26px;
-                }
-            }
-
-            .overview-list {
-                .overview-item {
-                    :nth-child(1) {
-                        font-size: 40px;
-                        line-height: 36px;
+                        span {
+                            font-size: 26px;
+                        }
                     }
 
-                    :nth-child(2) {
-                        font-size: 12px;
+                    .overview-list {
+                        .overview-item {
+                            :nth-child(1) {
+                                font-size: 40px;
+                                line-height: 36px;
+                            }
+
+                            :nth-child(2) {
+                                font-size: 12px;
+                            }
+                        }
                     }
                 }
             }
@@ -1760,44 +1761,46 @@
 /* ##################  */
 @media (max-width:576px) {
     .project-intro-section {
-        .project-intro-container {
-            .info-container {
-                gap: 14px;
-            }
-
-            gap: 10px;
-        }
-
-        .overview-container {
-            align-items: start;
-            padding: 14px 18px;
-            gap: 10px;
-            margin-top: 20px;
-
-            .overview-container-subtitle {
-                font-size: 20px;
-                line-height: 28px;
-
-                span {
-                    line-height: 28px;
-                    font-size: 20px;
+        .container {
+            .project-intro-container {
+                .info-container {
+                    gap: 14px;
                 }
-            }
 
-            .overview-list {
                 gap: 10px;
 
-                .overview-item {
-                    max-width: 235px;
+                .overview-container {
+                    align-items: start;
+                    padding: 14px 18px;
+                    gap: 10px;
+                    margin-top: 20px;
 
-                    :nth-child(1) {
-                        font-size: 28px;
-                        line-height: 36px;
+                    .overview-container-subtitle {
+                        font-size: 20px;
+                        line-height: 28px;
+
+                        span {
+                            line-height: 28px;
+                            font-size: 20px;
+                        }
                     }
 
-                    :nth-child(2) {
-                        font-size: 10px;
-                        line-height: 10px;
+                    .overview-list {
+                        gap: 10px;
+
+                        .overview-item {
+                            max-width: 235px;
+
+                            :nth-child(1) {
+                                font-size: 28px;
+                                line-height: 36px;
+                            }
+
+                            :nth-child(2) {
+                                font-size: 10px;
+                                line-height: 10px;
+                            }
+                        }
                     }
                 }
             }
@@ -1818,10 +1821,12 @@
 
                 .chal-content {
                     font-size: 20px;
+                    line-height: 26px;
                     margin: 12px 0 40px;
 
                     span {
                         font-size: 20px;
+                        line-height: 26px;
                     }
                 }
 
@@ -1829,11 +1834,13 @@
                     .tags-box {
                         p {
                             font-size: 14px;
+                            line-height: 18px;
                         }
 
                         & .tags {
                             * {
                                 font-size: 13px;
+                                line-height: 18px;
                             }
                         }
                     }
@@ -1873,6 +1880,7 @@
 
                     .mockup-h3 {
                         font-size: 26px;
+                        line-height: 32px;
                     }
                 }
             }
@@ -1965,10 +1973,10 @@
         .testimonial-container {
             &>p {
                 font-size: 28px;
-                line-height: 31px;
+                line-height: 33px;
 
                 & span {
-                    line-height: 31px;
+                    line-height: 33px;
                     font-size: 28px;
                 }
             }
@@ -1983,6 +1991,7 @@
 
                 p {
                     font-size: 16px;
+                    line-height: 21px;
                 }
             }
         }
@@ -1994,45 +2003,48 @@
 /* ##################  */
 @media (max-width:420px) {
     .project-intro-section {
-        .project-intro-container {
-            .info-container {
-                & .project-info {
-                    & .tags-container {
-                        .tag {
-                            font-size: 11px;
+        .container {
+            .project-intro-container {
+                .info-container {
+                    & .project-info {
+                        & .tags-container {
+                            .tag {
+                                font-size: 11px;
+                                line-height: 16px;
+                            }
+                        }
+                    }
+
+                    .intro-desc {
+                        p {
+                            max-width: 280px;
                         }
                     }
                 }
 
-                .intro-desc {
-                    p {
-                        max-width: 280px;
-                    }
-                }
-            }
-        }
+                .overview-container {
+                    .overview-container-subtitle {
+                        font-size: 16px;
+                        line-height: 23px;
 
-        .overview-container {
-            .overview-container-subtitle {
-                font-size: 16px;
-                line-height: 23px;
-
-                span {
-                    font-size: 16px;
-                    line-height: 23px;
-                }
-            }
-
-            .overview-list {
-                .overview-item {
-                    :nth-child(1) {
-                        font-size: 24px;
-                        line-height: 29px;
+                        span {
+                            font-size: 16px;
+                            line-height: 23px;
+                        }
                     }
 
-                    :nth-child(2) {
-                        font-size: 9px;
-                        line-height: 13px;
+                    .overview-list {
+                        .overview-item {
+                            :nth-child(1) {
+                                font-size: 24px;
+                                line-height: 29px;
+                            }
+
+                            :nth-child(2) {
+                                font-size: 9px;
+                                line-height: 13px;
+                            }
+                        }
                     }
                 }
             }
@@ -2059,11 +2071,13 @@
                     .tags-box {
                         p {
                             font-size: 14px;
+                            line-height: 20px;
                         }
 
                         & .tags {
                             * {
                                 font-size: 13px;
+                                line-height: 19px;
                             }
                         }
                     }
@@ -2079,9 +2093,11 @@
         & .project-ourwork-container {
             .work-content {
                 font-size: 14px;
+                line-height: 20px;
 
                 span {
                     font-size: 13px;
+                    line-height: 20px;
                 }
             }
         }
@@ -2112,6 +2128,7 @@
 
                     .mockup-h3 {
                         font-size: 16px;
+                        line-height: 22px;
                     }
                 }
             }
@@ -2169,6 +2186,7 @@
 
                         span {
                             font-size: 13px;
+                            line-height: 21px;
                         }
                     }
                 }
@@ -2234,11 +2252,12 @@
             & .profile-title {
                 .profile-title-h3 {
                     font-size: 20px;
-                    line-height: 21px;
+                    line-height: 27px;
                 }
 
                 p {
                     font-size: 13px;
+                    line-height: 20px;
                 }
             }
         }
@@ -2281,7 +2300,7 @@
     .text-lg {
         font-size: 21px;
         font-weight: 500;
-        line-height: 25px;
+        line-height: 27px;
     }
 
     .text-fade-md {
@@ -2290,7 +2309,7 @@
 
         span {
             font-size: 23px;
-            line-height: 28px;
+            line-height: 29px;
         }
     }
 
@@ -2323,7 +2342,7 @@
         line-height: 28px;
     }
 
-    .text-md-15 {
+    .text-md {
         font-size: 22px;
         font-weight: 500;
         line-height: 28px;
@@ -2340,6 +2359,7 @@
 
                         .info-container-h1 {
                             font-size: 66px;
+                            line-height: 74px;
                             max-width: 352px;
                         }
 
@@ -2407,7 +2427,7 @@
         line-height: 44px;
     }
 
-    .text-md-15 {
+    .text-md {
         font-size: 22px;
         font-weight: 500;
         line-height: 28px;
@@ -2442,6 +2462,7 @@
                             .feature-item {
                                 span {
                                     font-size: 21px;
+                                    line-height: 28px;
                                 }
                             }
                         }
@@ -2463,6 +2484,7 @@
                         .contact-address {
                             max-width: 320px;
                             font-size: 14px;
+                            line-height: 19px;
                         }
 
                         .social-links {
@@ -2508,6 +2530,7 @@
                 .text-fade-header {
                     padding: 0 12px 20px;
                     font-size: 25px;
+                    line-height: 32px;
 
                     span {
                         font-size: 25px;
@@ -2539,7 +2562,7 @@
         line-height: 36px;
     }
 
-    .text-md-15 {
+    .text-md {
         font-size: 16px;
         font-weight: 500;
         line-height: 21px;
@@ -2556,6 +2579,7 @@
 
                         .info-container-h1 {
                             font-size: 44px;
+                            line-height: 52px;
                         }
 
                         &>p {
@@ -2569,12 +2593,13 @@
                         position: relative;
 
                         .features-list {
-                            gap: 10px;
+                            gap: 8px;
                             margin-top: 0px;
 
                             .feature-item {
                                 span {
                                     font-size: 15px;
+                                    line-height: 22px;
                                 }
                             }
                         }
@@ -2623,10 +2648,11 @@
             & .booking-header {
                 .text-fade-header {
                     font-size: 18px;
-                    line-height: 22px;
+                    line-height: 26px;
 
                     span {
                         font-size: 18px;
+                        line-height: 26px;
                     }
                 }
             }
@@ -2660,17 +2686,18 @@
         line-height: 31px;
     }
 
-    .text-md-15 {
+    .text-md {
         font-size: 13px;
+        line-height: 19px;
     }
 
     .text-fade-md {
         font-size: 17px;
-        line-height: 22px;
+        line-height: 23px;
 
         span {
             font-size: 17px;
-            line-height: 21px;
+            line-height: 23px;
         }
     }
 
@@ -2703,10 +2730,12 @@
                         }
 
                         & .features-list {
+                            background: red;
+
                             & .feature-item {
                                 span {
                                     font-size: 13px;
-                                    line-height: 16px;
+                                    line-height: 19px;
                                 }
                             }
                         }
@@ -2735,12 +2764,12 @@
                         & .contact-form {
                             p {
                                 font-size: 11px;
-                                line-height: 15px;
+                                line-height: 17px;
                                 max-width: 250px;
 
                                 a {
                                     font-size: 11px;
-                                    line-height: 15px;
+                                    line-height: 17px;
                                 }
                             }
 
@@ -2771,6 +2800,7 @@
                 .text-fade-header {
                     padding-bottom: 20px;
                     font-size: 12px;
+                    line-height: 15px;
 
                     span {
                         line-height: 15px;
@@ -2837,7 +2867,7 @@
 @media(max-width:576px) {
     .blog-h1 {
         font-size: 38px;
-        line-height: 44px;
+        line-height: 46px;
     }
 }
 
